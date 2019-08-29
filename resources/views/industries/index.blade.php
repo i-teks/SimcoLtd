@@ -6,6 +6,7 @@
 
 @section('content')
   <h1>Industries</h1>
+  <p>- - - - - Craig’s input required - - - - -</p>
 @endsection
 
 @section('scripts')

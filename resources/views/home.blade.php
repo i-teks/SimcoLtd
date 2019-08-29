@@ -6,14 +6,8 @@
 
 @section('content')
   @include('layouts.partials.slider')
-
-  <h1>Custom design. Cutting-edge engineering.</h1>
-  <h2>Custom design. Cutting-edge engineering.</h2>
-  <h3>Custom design. Cutting-edge engineering.</h3>
-  <h4>Custom design. Cutting-edge engineering.</h4>
-  <h5>Custom design. Cutting-edge engineering.</h5>
-  <h6>Custom design. Cutting-edge engineering.</h6>
-  <p>Simco, Ltd. is an industry leader in the design, engineering and manufacturing of a wide range of specialty gauges, instrument clusters and driver information displays for leading automotive, commercial, military and recreational OEM manufacturers worldwide.</p>
+  <p>- - - - - slider/carousel images and text TBD - - - - -</p>
+  <p>Simco, Ltd. is an innovative engineering and manufacturing company dedicated to producing a wide range of instrument gauges, electronic assemblies, wireless products, and fabricated parts for a worldwide clientele of automotive, recreational, and commercial customers. Based in Lapeer, Michigan, our ISO-9001 compliant facility offers OEM engineering experience, exciting new product designs and flexible manufacturing capabilities to meet our customer’s unique needs.</p>
 @endsection
 
 @section('scripts')
