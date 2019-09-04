@@ -24,17 +24,28 @@
         <div class="dropdown-menu" aria-labelledby="navbarProductsDropdownMenuLink">
           <a class="dropdown-item" href="/products/electronic-modules">Electronic Modules</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="/products/wire-harness-assemblies">Wire Harness Assemblies</a>
+          <a class="dropdown-item" href="/products/wire-harness-assemblies">Wire Harness and PCB Assemblies</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="/products/instrument-clusters">Instrument Clusters</a>
+          <a class="dropdown-item" href="/products/instrument-clusters">Instrument Clusters and Guages</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="/products/graphic-overlays">Graphic Overlays</a>
+          <a class="dropdown-item" href="/products/graphic-overlays">2D and 3D Graphic Overlays</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/products/coil-bobbin-assemblies">Coil Bobbin Assemblies</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a href="/industries" class="nav-link {{ Request::is('industries*') ? 'active' : '' }}">Industries</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle {{ Request::is('industries*') ? 'active' : '' }}" href="/industries" id="navbarIndustriesDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Industries
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarIndustriesDropdownMenuLink">
+          <a class="dropdown-item" href="/industries/specialty">Specialty</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/industries/electric-hybrid">Electric / Hybrid</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/industries/recreational-military">Recreational and Military</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/industries/consumer-products">Consumer Products</a>
+        </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle {{ Request::is('technology*') ? 'active' : '' }}" href="/technology" id="navbarTechnologyDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

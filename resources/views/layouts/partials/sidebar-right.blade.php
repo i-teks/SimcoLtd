@@ -18,12 +18,10 @@
 				<h6 style="margin-bottom: 0.05rem"><small><i class="fa fa-phone mr-2" aria-hidden="true"></i></small>Phone Number</h6>
 				<div class="pl-4">
 				(810) 245-0188<br><br>
+				<strong>General Inquiries</strong><br>
+				ext. 1001<br><br>
 				<strong>OEM Sales</strong><br>
-				(810)-245-0188 ext. 3#<br><br>
-				<strong>Retail Inquiries</strong><br>
-				(810) 245-0188 ext. 5#<br><br>
-				<strong>Facsimile</strong><br>
-				(810) 245-0336
+				ext. 1003<br><br>
 				</div>
 		</p>
 		<p>

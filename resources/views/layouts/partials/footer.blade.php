@@ -10,11 +10,9 @@
       <h3 class="text-white mt-lg-0 mt-sm-4">Contact Us</h3>
       <p>Simco Ltd is an innovative engineering and manufacturing company dedicated
       to producing a wide range of instrument gauges, electronic assemblies, wireless
-      products, and fabricated parts for a worldwide clientele of automotive,
-      recreational, and commercial customers.</p>
+      products, and fabricated parts for a worldwide clientele.</p>
       <p class="mb-0"><i class="fa fa-map-marker-alt mr-3" aria-hidden="true"></i>&nbsp;1 DeMille Road, Lapeer MI 48446</p>
       <p class="mb-0"><i class="fa fa-phone mr-3" aria-hidden="true"></i>(810) 245-0188</p>
-      <p class="mb-0"><i class="fa fa-fax mr-3" aria-hidden="true"></i>(810) 245-0336</p>
       <p><i class="fa fa-envelope mr-3" aria-hidden="true"></i>info@simcoltd.com</p>
     </div>
 
@@ -43,7 +41,7 @@
         <img src="{{{ asset('assets/images/simco_logo_reverse.png') }}}" height="50" alt="SimcoLtd">
       </a>
       <p class="text-light mt-3">
-        Based in Lapeer, Michigan U.S.A, our ISO-9001 compliant facility offers OEM engineering experience,
+        Based in Lapeer, Michigan U.S.A, our ISO-9001 certified facility offers OEM engineering experience,
         exciting new product designs and flexible manufacturing capabilities to meet our customer’s unique needs.
       </p>
     </div>

@@ -6,7 +6,7 @@
 
 @section('content')
 <h1>Contact Us</h1>
-<p>Below you will find our contact information. The quick email form is also provided for a convenient way to contact us. The fields marked with * are required.</p>
+<p>Below you will find our contact information. The quick email form is also provided for a convenient way to contact us. The fields marked with <span class="font-weight-bold text-danger">*</span> are required.</p>
 
 <form>
 
@@ -14,21 +14,21 @@
   <div class="card-body">
     <h6 class="card-title"><span>Your Details</span></h6>
     <div class="form-group row">
-      <label for="firstName" class="col-md-4 col-form-label">First name</label>
+      <label for="firstName" class="col-md-4 col-form-label">First name <span class="font-weight-bold text-danger">*</span></label>
       <div class="col-md-8">
-        <input type="text" class="form-control" id="firstName">
+        <input type="text" class="form-control" id="firstName" required>
       </div>
     </div>
     <div class="form-group row">
-      <label for="lastName" class="col-md-4 col-form-label">Last name</label>
+      <label for="lastName" class="col-md-4 col-form-label">Last name <span class="font-weight-bold text-danger">*</span></label>
       <div class="col-md-8">
-        <input type="text" class="form-control" id="lastName">
+        <input type="text" class="form-control" id="lastName" required>
       </div>
     </div>
     <div class="form-group row">
-      <label for="email" class="col-md-4 col-form-label">Email address</label>
+      <label for="email" class="col-md-4 col-form-label">Email address <span class="font-weight-bold text-danger">*</span></label>
       <div class="col-md-8">
-        <input type="email" class="form-control" id="email">
+        <input type="email" class="form-control" id="email" required>
       </div>
     </div>
     <div class="form-group row">
@@ -44,9 +44,9 @@
   <div class="card-body">
     <h6 class="card-title"><span>Your Company Info</span></h6>
     <div class="form-group row">
-      <label for="company" class="col-md-4 col-form-label">Company</label>
+      <label for="company" class="col-md-4 col-form-label">Company <span class="font-weight-bold text-danger">*</span></label>
       <div class="col-md-8">
-        <input type="text" class="form-control" id="company">
+        <input type="text" class="form-control" id="company" required>
       </div>
     </div>
     <div class="form-group row">
@@ -68,9 +68,16 @@
   <div class="card-body">
     <h6 class="card-title"><span>Your Message</span></h6>
     <div class="form-group row">
-      <label for="interest" class="col-md-4 col-form-label">Interest</label>
+      <label for="interest" class="col-md-4 col-form-label">Interest <span class="font-weight-bold text-danger">*</span></label>
       <div class="col-md-8">
-        <input type="text" class="form-control" id="interest">
+        <select class="form-control" id="interest" required>
+          <option selected="true" disabled="disabled">-- Choose</option>
+          <option>General Comment/Question</option>
+          <option>Specialty OEM Program</option>
+          <option>Customer Care</option>
+          <option>Technical Support</option>
+          <option>Press Contact</option>
+        </select>
       </div>
     </div>
     <div class="form-group row">
@@ -90,7 +97,11 @@
 
 <div class="d-flex">
   <div class="">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <div class="g-recaptcha" data-sitekey="6LfT-7QUAAAAABwnTk3G02mBwAIQwn7-jHTGcH64"></div>
+    <!--
     <img src="https://developers.google.com/recaptcha/images/newCaptchaAnchor.gif" width="300" style="max-width:100%;">
+    -->
   </div>
   <div class="mt-auto ml-auto">
     <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
