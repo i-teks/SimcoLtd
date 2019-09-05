@@ -8,7 +8,8 @@
 
 @include('layouts.partials.meta')
 </head>
-<body class="bg-light">
+<body><!-- class="bg-light" -->
+
 <div id="master">
 
 @include('layouts.partials.header')

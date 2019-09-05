@@ -1,6 +1,6 @@
 <header class="header--sticky-top">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
-<div class="container align-middle">
+<div class="container align-middle bg-dark">
 
   <a class="navbar-brand" href="{{ url('/') }}">
     <img src="{{{ asset('assets/images/simco_logo_reverse.png') }}}" height="50" alt="SimcoLtd">
