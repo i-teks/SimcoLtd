@@ -99,9 +99,6 @@
   <div class="">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <div class="g-recaptcha" data-sitekey="6LfT-7QUAAAAABwnTk3G02mBwAIQwn7-jHTGcH64"></div>
-    <!--
-    <img src="https://developers.google.com/recaptcha/images/newCaptchaAnchor.gif" width="300" style="max-width:100%;">
-    -->
   </div>
   <div class="mt-auto ml-auto">
     <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
