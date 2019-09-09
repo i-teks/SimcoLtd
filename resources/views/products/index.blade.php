@@ -1,7 +1,11 @@
-@extends('layouts.master')
+@extends('layouts.secondary')
 
 @section('title')
   Products - Simco Ltd. Specialty Innovation and Manufacturing Company
+@endsection
+
+@section('sidebar')
+  @include('products.sidebar')
 @endsection
 
 @section('content')
