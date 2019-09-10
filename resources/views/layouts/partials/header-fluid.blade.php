@@ -23,13 +23,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarProductsDropdownMenuLink">
           <a class="dropdown-item" href="/products/electronic-modules">Electronic Modules</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/products/wire-harness-assemblies">Wire Harness and PCB Assemblies</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/products/instrument-clusters">Instrument Clusters and Guages</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/products/graphic-overlays">2D and 3D Graphic Overlays</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/products/coil-bobbin-assemblies">Coil Bobbin Assemblies</a>
         </div>
       </li>
@@ -39,11 +35,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarIndustriesDropdownMenuLink">
           <a class="dropdown-item" href="/industries/specialty">Specialty</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/industries/electric-hybrid">Electric / Hybrid</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/industries/recreational-military">Recreational and Military</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/industries/consumer-products">Consumer Products</a>
         </div>
       </li>
@@ -53,9 +46,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarTechnologyDropdownMenuLink">
           <a class="dropdown-item" href="/technology/advanced-engineering">Advanced Engineering</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/technology/manufacturing">State-of-the-Art Manufacturing</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/technology/cloud-based-solutions">Cloud-Based Solutions</a>
         </div>
       </li>
