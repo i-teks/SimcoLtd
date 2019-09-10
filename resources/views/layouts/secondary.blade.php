@@ -34,7 +34,7 @@
 
 @yield('sidebar')
 
-  <div class="container bg-white" id="page-content-wrapper">
+  <div class="bg-white px-3" id="page-content-wrapper">
     <div class="row justify-content-centers m-0">
       <div class="col-md-12 pt-4 pb-5">
 
