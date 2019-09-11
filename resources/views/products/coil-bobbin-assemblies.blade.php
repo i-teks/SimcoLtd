@@ -1,7 +1,11 @@
-@extends('layouts.master')
+@extends('layouts.fluid-sidebar')
 
 @section('title')
   Products - Coil Bobbin Assemblies- Simco Ltd. Specialty Innovation and Manufacturing Company
+@endsection
+
+@section('sidebar')
+  @include('products.sidebar')
 @endsection
 
 @section('content')

@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.responsive')
 
 @section('title')
   Industries - Simco Ltd. Specialty Innovation and Manufacturing Company
@@ -6,7 +6,6 @@
 
 @section('content')
   <h1>Industries</h1>
-  <p>- - - - - Craig’s input required - - - - -</p>
 @endsection
 
 @section('scripts')

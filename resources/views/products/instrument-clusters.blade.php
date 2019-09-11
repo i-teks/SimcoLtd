@@ -1,11 +1,15 @@
-@extends('layouts.master')
+@extends('layouts.fluid-sidebar')
 
 @section('title')
-  Products - Instrument Clusters - Simco Ltd. Specialty Innovation and Manufacturing Company
+  Products - Instrument Clusters & Gauges - Simco Ltd. Specialty Innovation and Manufacturing Company
+@endsection
+
+@section('sidebar')
+  @include('products.sidebar')
 @endsection
 
 @section('content')
-  <h1>Instrument Clusters</h1>
+  <h1>Instrument Clusters & Gauges</h1>
   <h5>Custom design. Cutting-edge engineering.</h5>
   <img src="{{ asset('/assets/images/engineering-cluster.png') }}" class="float-right engineering-cluster">
   <p>Simco, Ltd. is an industry leader in the design, engineering and manufacturing of a wide range of specialty gauges, instrument clusters and driver information displays for leading automotive, commercial, military and recreational OEM manufacturers worldwide.</p>

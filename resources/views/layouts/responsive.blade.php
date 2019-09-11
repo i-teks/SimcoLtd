@@ -8,31 +8,24 @@
 
 @include('layouts.partials.meta')
 </head>
-<body>
+<!--
+// make the containing element relative in order to have
+// two absolute positioned elements i.e. sticky header and footer.
+-->
+<body style="min-height: 100vh; position:relative;">
 
-<div id="tertiary">
+<div id="responsive">
 
 @include('layouts.partials.header')
 
 <main>
-<div class="container page">
+<div class="d-flex container content">
 
-  <div class="container bg-white">
-    <div class="row justify-content-centers m-0">
-      <div class="col-md-12 pt-4 pb-5">
-
-        <div class="row">
-        <div class="col-lg-8">
+  <div class="bg-white px-3" id="page-content-wrapper">
+    <div class="row justify-content-center m-0">
+      <div class="col-12 pt-4 pb-4">
 
         @yield('content')
-
-        </div>
-        <div class="bg-white col-lg-4">
-
-          @include('layouts.partials.sidebar-right')
-
-        </div>
-        </div>
 
       </div>
     </div>
@@ -41,7 +34,7 @@
 </div>
 </main>
 
-@include('layouts.partials.footer')
+@include('layouts.partials.footer-simple')
 
 </div>
 

@@ -1,4 +1,4 @@
-@extends('layouts.secondary')
+@extends('layouts.fluid')
 
 @section('title')
   Products - Simco Ltd. Specialty Innovation and Manufacturing Company

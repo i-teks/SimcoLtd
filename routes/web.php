@@ -24,6 +24,10 @@ Route::view('/products/graphic-overlays', 'products.graphic-overlays');
 Route::view('/products/coil-bobbin-assemblies', 'products.coil-bobbin-assemblies');
 
 Route::view('/industries', 'industries.index');
+Route::view('/industries/specialty', 'industries.specialty');
+Route::view('/industries/electric-hybrid', 'industries.electric-hybrid');
+Route::view('/industries/recreational-military', 'industries.recreational-military');
+Route::view('/industries/consumer-products', 'industries.consumer-products');
 
 Route::view('/technology', 'technology.index');
 Route::view('/technology/advanced-engineering', 'technology.advanced-engineering');

@@ -1,7 +1,11 @@
-@extends('layouts.master')
+@extends('layouts.master-sidebar')
 
 @section('title')
   Technology - State-of-the-Art Manufacturing - Simco Ltd. Specialty Innovation and Manufacturing Company
+@endsection
+
+@section('sidebar')
+  @include('technology.sidebar')
 @endsection
 
 @section('content')

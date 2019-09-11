@@ -1,7 +1,11 @@
-@extends('layouts.tertiary')
+@extends('layouts.responsive-sidebar-right')
 
 @section('title')
   Contact - Simco Ltd. Specialty Innovation and Manufacturing Company
+@endsection
+
+@section('sidebar')
+  @include('contact.sidebar')
 @endsection
 
 @section('content')

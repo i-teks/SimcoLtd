@@ -1,11 +1,15 @@
-@extends('layouts.master')
+@extends('layouts.fluid-sidebar')
 
 @section('title')
-  Products - Wire Haness Assemblies - Simco Ltd. Specialty Innovation and Manufacturing Company
+  Products - Wire Haness & PCB Assemblies - Simco Ltd. Specialty Innovation and Manufacturing Company
+@endsection
+
+@section('sidebar')
+  @include('products.sidebar')
 @endsection
 
 @section('content')
-  <h1>Wire Harness Assemblies</h1>
+  <h1>Wire Harness & PCB Assemblies</h1>
   <h5>Extremely high-end and reliable.</h5>
   <p>Simco is certified ISO 9001:2015, this means that our entire organization understands and is committed to standards that reduce risk and ensure consistently reliable products every time. When it comes to wires, protection against the adverse effects of vibrations, abrasions, and moisture are paramount. That’s why our custom wire harness assemblies offer potting or over-mold options and are electronically tested against extremely high standards.</p>
   <h5>Engineered to the highest standards.</h5>

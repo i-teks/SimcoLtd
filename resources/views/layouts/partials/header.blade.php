@@ -23,9 +23,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarProductsDropdownMenuLink">
           <a class="dropdown-item" href="/products/electronic-modules">Electronic Modules</a>
-          <a class="dropdown-item" href="/products/wire-harness-assemblies">Wire Harness and PCB Assemblies</a>
-          <a class="dropdown-item" href="/products/instrument-clusters">Instrument Clusters and Guages</a>
-          <a class="dropdown-item" href="/products/graphic-overlays">2D and 3D Graphic Overlays</a>
+          <a class="dropdown-item" href="/products/wire-harness-assemblies">Wire Harness & PCB Assemblies</a>
+          <a class="dropdown-item" href="/products/instrument-clusters">Instrument Clusters & Guages</a>
+          <a class="dropdown-item" href="/products/graphic-overlays">2D & 3D Graphic Overlays</a>
           <a class="dropdown-item" href="/products/coil-bobbin-assemblies">Coil Bobbin Assemblies</a>
         </div>
       </li>
@@ -36,7 +36,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarIndustriesDropdownMenuLink">
           <a class="dropdown-item" href="/industries/specialty">Specialty</a>
           <a class="dropdown-item" href="/industries/electric-hybrid">Electric / Hybrid</a>
-          <a class="dropdown-item" href="/industries/recreational-military">Recreational and Military</a>
+          <a class="dropdown-item" href="/industries/recreational-military">Recreational & Military</a>
           <a class="dropdown-item" href="/industries/consumer-products">Consumer Products</a>
         </div>
       </li>
