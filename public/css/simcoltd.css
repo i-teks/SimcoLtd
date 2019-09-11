@@ -14,6 +14,7 @@
   --grey-secondary: #d3d3d3; /* footer menu background, sidebar li border, page border with sidebar, contact card border */
   --grey-secondary-alt: #d5d5d5; /* form input borders and unused box-shadows */
   --grey-dark: #2f2c2c; /* header/footer background, side navbar li:active */
+  --grey-light: #eaeaea; /* header/footer background, side navbar li:active */
 
   --grey-text: #6d6d6d; /* html & body text color */
   --black-text: #231f20; /* h1, h3, sidebar a:hover */
@@ -77,7 +78,13 @@ h6 {
   font-size: 1.125rem;
 }
 
-a:hover { text-decoration: none; }
+a {
+  color: var(--red-primary);
+}
+a:hover {
+  color: var(--red-primary);
+  text-decoration: none;
+}
 
 input, textarea, select {
   border-radius: 0 !important;
@@ -114,7 +121,7 @@ button[type=submit]:focus {
 
 /*
 // -----------------------------------------------
-// Theming Bootstrap Classes
+// Theming & Bootstrap Classes
 // -----------------------------------------------
 */
 .bg-dark {
@@ -125,6 +132,9 @@ button[type=submit]:focus {
 }
 .bg-dark-grey {
   background-color: #656565;
+}
+.text-red {
+  color: var(--red-primary);
 }
 
 
@@ -495,16 +505,41 @@ body {
 }
 
 
+.card {
+  border: 3px solid var(--grey-secondary);
+  border-radius: 0;
+  margin: 2rem 0;
+}
+
+
+/*
+// -----------------------------------------------
+// Home Page, Box Card
+// -----------------------------------------------
+*/
+.grey-box {
+  background-color: var(--grey-light);
+  border: none;
+}
+.grey-box .card-header {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1rem;
+  padding-top: 1.5rem;
+}
+.grey-box .card-body {
+  font-size: 0.8rem;
+  padding: 0 1.25rem;
+}
+
+
 /*
 // -----------------------------------------------
 // Contact Page, Form Card
 // -----------------------------------------------
 */
-.card {
-  border-radius: 0;
-  border-width: 3px;
-  margin: 2rem 0;
-}
 .card-title {
   color: var(--grey-secondary);
   margin-top: -2rem;
