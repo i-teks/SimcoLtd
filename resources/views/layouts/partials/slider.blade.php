@@ -31,11 +31,11 @@
 
   <!-- Slider Tab 2 -->
   <div id="tab_2" class="slide" style="width:100%;">
-    <img style="width:100%;" src="/assets/images/slider/slider-industries-specialty.jpg" alt="" border="0" />
+    <img style="width:100%;" src="/assets/images/slider/slider-industries-specialty-oem.jpg" alt="" border="0" />
     <div class="slider-descr">
       <div class="slider-descr-content">
         <img src="http://www.simcoltd.com/template/default/images/slider_arrows.png" alt="" border="0" class="float-left mr-2"/>
-        <div class="float-left"><a href="/industries/specialty-oem">Discover what we're known for,<br/> specialty oem</a></div>
+        <div class="float-left"><a href="/industries/specialty">Discover what we're known for,<br/> specialty oem</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
