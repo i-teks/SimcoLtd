@@ -387,12 +387,13 @@ nav a {
   width: 25.8125rem !important;
 }
 #sidebar-wrapper .list-group {
+  font-size: 0.75rem;
   margin-right: -0.8125rem;
-  width: 15.8125rem !important;
+  width: 12.5rem; /* set width of the sidbar */
 }
 #sidebar-wrapper li {
   border-bottom: transparent;
-  border-top: 1px solid var(--grey-secondary);
+  border-top: 1px solid var(--grey-light);
   height: 2.375rem;
   list-style-type: none;
 }
@@ -404,14 +405,14 @@ nav a {
 #sidebar-wrapper li.active {
   background-color: var(--grey-dark);
   border-bottom: transparent;
-  border-top: 1px solid var(--grey-secondary);
+  border-top: 1px solid var(--grey-light);
 }
 #sidebar-wrapper .list-group-item {
-  background: url(http://www.simcoltd.com/template/default/images/small_black_arrow.png) no-repeat 1.25rem center;
+  background: url(http://www.simcoltd.com/template/default/images/small_black_arrow.png) no-repeat 0.6125rem center;
   border: none;
   color: var(--red-primary);
   line-height: 0.85rem;
-  padding-left: 2.25rem;
+  /* padding-left: 2.25rem; */
 }
 #sidebar-wrapper .list-group-item:hover,
 #sidebar-wrapper .list-group-item:focus,
@@ -480,8 +481,8 @@ body {
   font-size: 1rem;
 }
 #sidebar-wrapper .list-group {
-  width: 15rem;
-  font-size: 0.8rem;
+  /* width: 15rem; */
+  /* font-size: 0.8rem; */
 }
 #page-content-wrapper {
   min-width: 0;
@@ -520,6 +521,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   position: absolute;
+  top: 0;
+  left: 0;
 /*
   mask-image: url(http://www.simcoltd.com/template/default/images/slider_mask.png);
   mask-composite: exclude;

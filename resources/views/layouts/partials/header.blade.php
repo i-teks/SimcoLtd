@@ -34,7 +34,7 @@
           Industries
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarIndustriesDropdownMenuLink">
-          <a class="dropdown-item" href="/industries/specialty">Specialty</a>
+          <a class="dropdown-item" href="/industries/specialty">Specialty OEM</a>
           <a class="dropdown-item" href="/industries/electric-hybrid">Electric / Hybrid</a>
           <a class="dropdown-item" href="/industries/recreational-military">Recreational & Military</a>
           <a class="dropdown-item" href="/industries/consumer-products">Consumer Products</a>

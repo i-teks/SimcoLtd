@@ -4,7 +4,7 @@
   <ul class="list-group list-group-flush text-uppercase">
     <li class="align-middle {{ Request::is('industries/specialty*') ? 'active' : '' }}">
       <a href="/industries/specialty" class="list-group-item list-group-item-action {{ Request::is('industries/specialty*') ? 'active' : '' }}">
-        Specialty
+        Specialty OEM
       </a>
     </li>
     <li class="align-middle {{ Request::is('industries/electric-hybrid*') ? 'active' : '' }}">
@@ -13,7 +13,7 @@
       </a>
     </li>
     <li class="align-middle {{ Request::is('industries/recreational-military*') ? 'active' : '' }}">
-      <a href="/industries/recreational-military" class="list-group-item list-group-item-action {{ Request::is('industries/recreational-military*') ? 'active' : '' }}">
+      <a href="/industries/recreational-military" class="list-group-item double-line list-group-item-action {{ Request::is('industries/recreational-military*') ? 'active' : '' }}">
         Recreational & Military
       </a>
     </li>
