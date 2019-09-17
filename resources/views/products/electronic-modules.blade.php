@@ -1,4 +1,4 @@
-@extends('layouts.fluid-sidebar')
+@extends('layouts.master-sidebar')
 
 @section('title')
   Products - Electronic Modules - Simco Ltd. Specialty Innovation and Manufacturing Company

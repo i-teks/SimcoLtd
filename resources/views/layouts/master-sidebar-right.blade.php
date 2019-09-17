@@ -14,16 +14,16 @@
 -->
 <body style="min-height: 100vh; position:relative;">
 
-<div id="responsive">
+<div id="responsive-sidebar-right">
 
 @include('layouts.partials.header')
 
 <main>
-<div class="d-flex container content">
+<div class="d-flex container main--page-content">
 
   <div class="bg-white px-3" id="page-content-wrapper">
-    <div class="row justify-content-center m-0">
-      <div class="col-12 pt-4 pb-4">
+    <div class="row justify-content-centers m-0">
+      <div class="col-md-12 pt-4 pb-4">
 
         @yield('content')
 
@@ -31,10 +31,12 @@
     </div>
   </div>
 
+  @yield('sidebar')
+
 </div>
 </main>
 
-@include('layouts.partials.footer-simple')
+@include('layouts.partials.footer')
 
 </div>
 

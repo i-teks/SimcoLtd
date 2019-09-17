@@ -1,7 +1,11 @@
-@extends('layouts.master')
+@extends('layouts.master-sidebar')
 
 @section('title')
   Technology - Simco Ltd. Specialty Innovation and Manufacturing Company
+@endsection
+
+@section('sidebar')
+  @include('technology.sidebar')
 @endsection
 
 @section('content')

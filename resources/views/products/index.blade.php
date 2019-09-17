@@ -1,4 +1,4 @@
-@extends('layouts.fluid')
+@extends('layouts.master-sidebar')
 
 @section('title')
   Products - Simco Ltd. Specialty Innovation and Manufacturing Company

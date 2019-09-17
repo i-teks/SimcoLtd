@@ -1,4 +1,4 @@
-@extends('layouts.fluid-sidebar')
+@extends('layouts.master-sidebar')
 
 @section('title')
   Products - 2D & 3D Graphic Overlays - Simco Ltd. Specialty Innovation and Manufacturing Company

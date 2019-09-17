@@ -1,4 +1,4 @@
-@extends('layouts.responsive-sidebar-right')
+@extends('layouts.master-sidebar-right')
 
 @section('title')
   Contact - Simco Ltd. Specialty Innovation and Manufacturing Company

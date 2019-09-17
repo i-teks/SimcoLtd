@@ -1,4 +1,4 @@
-@extends('layouts.responsive-sidebar')
+@extends('layouts.master-sidebar')
 
 @section('title')
   Indistries - Electric / Hybrid OEM - Simco Ltd. Specialty Innovation and Manufacturing Company
