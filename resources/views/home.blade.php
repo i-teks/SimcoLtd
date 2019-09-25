@@ -12,8 +12,56 @@
 
 @section('scripts')
 <script>
-//$("#slider > div:gt(0)").hide();
+/**
+ * Image Slider adapted from
+ * https://medium.com/better-programming/make-a-slideshow-with-automatic-and-manual-controls-using-html-css-and-javascript-b7e9305168f9
+ */
+var slideIndex = 1;
+window.addEventListener("load",function() {
+    showSlides(slideIndex);
+    timer = setInterval(function(){plusSlides(1)}, 10000);
+})
 
+function currentSlide(n){
+  clearInterval(timer);
+  timer = setInterval(function(){plusSlides(n + 1)}, 10000);
+  showSlides(slideIndex = n);
+}
+
+// Next/previous controls
+function plusSlides(n){
+  clearInterval(timer);
+  if (n < 0){
+    showSlides(slideIndex -= 1);
+  } else {
+   showSlides(slideIndex += 1);
+  }
+  if (n === -1){
+    timer = setInterval(function(){plusSlides(n + 2)}, 10000);
+  } else {
+    timer = setInterval(function(){plusSlides(n + 1)}, 10000);
+  }
+}
+
+function showSlides(n){
+  var i;
+  var slides = document.getElementsByClassName("slide");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+/**
+ * Image Slider without manual controls
+//$("#slider > div:gt(0)").hide();
 $( document ).ready( function(){
 setInterval( function() {
   var $active = $( "#slider .active" );
@@ -25,5 +73,6 @@ setInterval( function() {
   });
 }, 8000 );
 })
+*/
 </script>
 @endsection
