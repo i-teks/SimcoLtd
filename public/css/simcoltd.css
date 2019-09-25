@@ -577,7 +577,7 @@ body {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  z-index: 1000;
+  z-index: 20;
 }
 /* Position the "next button" to the right */
 .next {
@@ -596,7 +596,7 @@ body {
   left: 0;
   text-align: right;
   width: 100%;
-  z-index: 1000;
+  z-index: 20;
 }
 .dot {
   background-color: rgba(0,0,0,0.5);
@@ -614,7 +614,7 @@ body {
 .dot:hover {
   background-color: rgba(197,29,39, 0.5);
 }
-.active {
+.dot.active {
   background-color: var(--red-primary); /*rgba(197,29,39, 0.85);*/
 }
 /* Fading animation */
@@ -644,7 +644,18 @@ body {
     display: none;
   }
 }
-
+/**
+ * Break point above Bootstrap medium width
+ *
+ * Disable links
+ * if desktop/responsive viewport size
+ */
+@media (min-width: 992px) {
+  .slider-img-link {
+    pointer-events: none;
+    cursor: default;
+  }
+}
 
 /*
 // -----------------------------------------------
@@ -655,24 +666,64 @@ body {
   border: 3px solid var(--grey-secondary);
   border-radius: 0;
   margin: 2rem 0;
+  overflow: hidden;
+}
+/**
+  * Solution to make perfectly square css box.
+  * Could also use a JQuery solution.
+  */
+.card {
+  position: relative;
+  width: 100%;
+}
+.card:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.card-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/*  */
+.red-box {
+  background-color: var(--red-primary);
+  border: none;
+  color: #fff;
 }
 .grey-box {
   background-color: var(--grey-light);
   border: none;
 }
+.red-box .card-header,
 .grey-box .card-header {
   background-color: transparent;
   border: none;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1rem;
-  padding-top: 1.5rem;
+  height: 3.5rem;
+  padding-top: 1.25rem;
 }
+.red-box .card-body,
 .grey-box .card-body {
   font-size: 0.8rem;
   padding: 0 1.25rem;
 }
-
+.card-body ul {
+  list-style: none;
+  padding: 0;
+}
+.card-body ul li {
+    background: url(http://www.simcoltd.com/template/default/images/small_black_arrow.png) no-repeat left 5px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+.red-box .card-body ul li a {
+  color: #fff;
+}
 
 /*
 // -----------------------------------------------

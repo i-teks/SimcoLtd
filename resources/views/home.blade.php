@@ -8,6 +8,7 @@
   @include('layouts.partials.slider')
   <h4><span class="text-red">S</span>pecialty <span class="text-red">I</span>nnovative <span class="text-red">M</span>anufacturing <span class="text-red">Co</span>mpany</h4>
   <p>Simco, Ltd. is an innovative engineering and manufacturing company dedicated to producing a wide range of instrument gauges, electronic assemblies, wireless products, and fabricated parts for a worldwide clientele of automotive, recreational, and commercial customers. Based in Lapeer, Michigan, our ISO-9001 compliant facility offers OEM engineering experience, exciting new product designs and flexible manufacturing capabilities to meet our customer’s unique needs.</p>
+  @include('layouts.partials.home-boxes')
 @endsection
 
 @section('scripts')
@@ -73,6 +74,15 @@ setInterval( function() {
   });
 }, 8000 );
 })
+*/
+
+/**
+ * Keep a Div perfectly square (responsive)
+ * Resize div height based on width after window resize
+$(window).resize(function(){
+  $(".card").height($(".card").width());
+  $(".card-content").height($(".card-content").width());
+});
 */
 </script>
 @endsection
