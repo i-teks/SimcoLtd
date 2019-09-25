@@ -662,26 +662,26 @@ body {
 // Home Page, Box Card
 // -----------------------------------------------
 */
-.card {
-  border: 3px solid var(--grey-secondary);
-  border-radius: 0;
-  margin: 2rem 0;
+.red-box.card {
+  border: 3px solid var(--red-dark);
+}
+.red-box.card, .grey-box.card {
   overflow: hidden;
 }
 /**
   * Solution to make perfectly square css box.
   * Could also use a JQuery solution.
   */
-.card {
+.red-box.card, .grey-box.card {
   position: relative;
   width: 100%;
 }
-.card:after {
+.red-box.card:after, .grey-box.card:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
-.card-content {
+.red-box.card .card-content, .grey-box.card .card-content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -730,6 +730,11 @@ body {
 // Contact Page, Form Card
 // -----------------------------------------------
 */
+.card {
+  border: 3px solid var(--grey-secondary);
+  border-radius: 0;
+  margin: 2rem 0;
+}
 .card-title {
   color: var(--grey-secondary);
   margin-top: -2rem;
