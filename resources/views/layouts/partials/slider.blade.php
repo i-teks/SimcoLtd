@@ -1,88 +1,88 @@
-<div style="position:relative; width:100%; height:auto; background-color: rgba(0,0,0,100); overflow:auto; margin-bottom:1.5rem; margin-top:0.5rem; ">
+<style>
+#home-slider {
+    /*
+    position: relative;
+    max-height: 800px;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 67%;
+    */
+    position:relative; width:100%; height:auto; background-color: rgba(0,0,0,100); overflow:hidden; margin-bottom:1.5rem; margin-top:0.5rem;
+}
+#home-slider #slider {
+  /*
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    */
+}
+.slide img {
+  height: 437px;
+  width: 100%;
+  object-fit: cover;
+}
+/**
+ * Break point below Bootstrap medium width
+ */
+ @media (max-width: 991px) {
+   .slide img {
+     height: 380px;
+   }
+ }
+ @media (max-width: 767px) {
+   .slide img {
+     height: 290px;
+   }
+ }
+@media (max-width: 575px) {
+  .slide img {
+    height: 240px;
+  }
+}
+</style>
+<div id="home-slider">
 
 <!-- Begin Slider -->
 <div id="slider">
-  <!-- Slider Transparent Overlay
-  <span class="slider-overlay" style="z-index:20;">
-    <img style="display:inline; width:100%;" src="/assets/images/slider/slider-overlay.png" alt="" border="0" />
-  </span>
-  -->
 
   <!-- Slider Tab 1 -->
-  <div id="tab_1" class="slide slide-fade" style="width:100%;">
-    <a href="/industries/specialty" class="slider-img-link"><img style="width:100%;" src="/assets/images/slider/slider-industries-specialty-oem.jpg" alt="" border="0" /></a>
-    <div class="slider-descr">
-      <div class="slider-descr-content">
-        <img src="http://www.simcoltd.com/template/default/images/slider_arrows.png" alt="" border="0" class="float-left mr-2"/>
-        <div class="float-left"><a href="/industries/specialty">This is what we're known for...<br/> specialty oem, learn more</a></div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
+  <div id="tab_1" class="slide slide-fade">
+    <a href="/products/electronic-modules" class="slider-img-link"><img src="/assets/images/slider/slider-products-electronic-modules.jpg" alt="" border="0" /></a>
   </div>
 
   <!-- Slider Tab 2 -->
-  <div id="tab_2" class="slide slide-fade" style="width:100%;">
-    <a href="/products/coil-bobbin-assemblies" class="slider-img-link"><img style="width:100%;" src="/assets/images/slider/slider-products-coil-bobbin-assemblies.jpg" alt="" border="0" /></a>
-    <div class="slider-descr">
-      <div class="slider-descr-content">
-        <img src="http://www.simcoltd.com/template/default/images/slider_arrows.png" alt="" border="0" class="float-left mr-2"/>
-        <div class="float-left"><a href="/products/coil-bobbin-assemblies">Discover yet another Simco product<br/> meeting the highest standards</a></div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
+  <div id="tab_2" class="slide slide-fade">
+    <a href="/products/wire-harness-assemblies" class="slider-img-link"><img src="/assets/images/slider/slider-products-wire-harness-assemblies.jpg" alt="" border="0" /></a>
   </div>
 
   <!-- Slider Tab 3 -->
-  <div id="tab_3" class="slide slide-fade" style="width:100%;">
-    <a href="/products/wire-harness-assemblies" class="slider-img-link"><img style="width:100%;" src="/assets/images/slider/slider-products-wire-harness-assemblies.jpg" alt="" border="0" /></a>
-    <div class="slider-descr">
-      <div class="slider-descr-content">
-        <img src="http://www.simcoltd.com/template/default/images/slider_arrows.png" alt="" border="0" class="float-left mr-2"/>
-        <div class="float-left"><a href="/products/wire-harness-assemblies">Discover yet another Simco product<br/> meeting the highest standards</a></div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
+  <div id="tab_3" class="slide slide-fade">
+    <a href="/products/instrument-clusters" class="slider-img-link"><img src="/assets/images/slider/slider-products-instrument-clusters.jpg" alt="" border="0" /></a>
   </div>
 
   <!-- Slider Tab 4 -->
-  <div id="tab_4" class="slide slide-fade" style="width:100%;">
-    <a href="/products/graphic-overlays" class="slider-img-link"><img style="width:100%;" src="/assets/images/slider/slider-products-graphic-overlays.jpg" alt="" border="0" /></a>
-    <div class="slider-descr">
-      <div class="slider-descr-content">
-        <img src="http://www.simcoltd.com/template/default/images/slider_arrows.png" alt="" border="0" class="float-left mr-2"/>
-        <div class="float-left"><a href="/products/graphic-overlays">This is what we're known for...<br/> specialty oem, learn more</a></div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
+  <div id="tab_4" class="slide slide-fade">
+    <a href="/products/graphic-overlays" class="slider-img-link"><img src="/assets/images/slider/slider-products-graphic-overlays.jpg" alt="" border="0" /></a>
   </div>
 
   <!-- Slider Tab 5 -->
-  <div id="tab_5" class="slide slide-fade" style="width:100%;">
-    <a href="/products/instrument-clusters" class="slider-img-link"><img style="width:100%;" src="/assets/images/slider/slider-products-instrument-clusters.jpg" alt="" border="0" /></a>
-    <div class="slider-descr">
-      <div class="slider-descr-content">
-        <img src="http://www.simcoltd.com/template/default/images/slider_arrows.png" alt="" border="0" class="float-left mr-2"/>
-        <div class="float-left"><a href="/products/instrument-clusters">Find out why our gauges and<br/> clusters are the latest sensation</a></div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
+  <div id="tab_5" class="slide slide-fade">
+    <a href="/products/coil-bobbin-assemblies" class="slider-img-link"><img src="/assets/images/slider/slider-products-coil-bobbin-assemblies.jpg" alt="" border="0" /></a>
   </div>
 
   <!-- Slider Tab 6 -->
-  <div id="tab_6" class="slide slide-fade" style="width:100%;">
-    <a href="/products/electronic-modules" class="slider-img-link"><img style="width:100%;" src="/assets/images/slider/slider-products-electronic-modules.jpg" alt="" border="0" /></a>
-    <div class="slider-descr">
-      <div class="slider-descr-content">
-        <img src="http://www.simcoltd.com/template/default/images/slider_arrows.png" alt="" border="0" class="float-left mr-2"/>
-        <div class="float-left"><a href="/products/electronic-modules">Discover yet another Simco product<br/> meeting the highest standards</a></div>
-        <div class="clearfix"></div>
-      </div>
+    <div id="tab_6" class="slide slide-fade">
+      <a href="/industries/specialty" class="slider-img-link"><img src="/assets/images/slider/slider-industries-specialty-oem.jpg" alt="" border="0" /></a>
     </div>
-  </div>
 
   <!-- Next and Previous Arrow Buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <div class="col-12 col-lg-12" style="position:absolute; bottom:0; padding: 20px; background-color: rgba(0,0,0,0.5)/*background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.0));*/">
+    <p style="color:#ffffff; text-align:center; margin:0;">Text will go here instead...</p>
+  </div>
 
   <!-- Slider Nav -->
   <div class="slider-dots">

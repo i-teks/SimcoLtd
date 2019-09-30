@@ -1,75 +1,103 @@
-<div class="row" style="margin: 0 -0.5rem;">
+<style>
+.row.adventure {
+    text-align: center;
+    margin: 0 -0.5rem;
+}
+.row.adventure .col-lg-4 {
+    max-width: 23%;
+    display: inline-block;
+}
+@media screen and (max-width: 1199px) {
+  .row.adventure .col-lg-4 {
+    max-width: 49%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .row.adventure .col-lg-4 {
+    max-width: 100%;
+  }
+}
+.row.adventure .col-lg-4 .btn {
+    padding: 5px;
+    margin-top: -20px;
+}
+.row.adventure .col-lg-4 p {
+  /*color: #2f2c2c;*/
+  font-size: 14px;
+  font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 0.5em;
+}
+.btn-build {
+    /*
+    border: 2px solid #e61332;
+    background-color: #e61332;
+    */
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: -28px;
+}
+.btn {
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 0;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-build:hover {
+    /*
+    color: #e61332;
+    background-color: #fff;
+    border: 2px solid #e61332;
+    */
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.btn:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+.btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+</style>
 
-    <!-- Flex Box -->
-    <div class="col-6 col-md-3 p-2">
-      <!-- Card -->
-      <div class="card grey-box m-0">
-        <div class="card-content">
-          <div class="card-header align-items-center" style="background-image: url('http://www.simcoltd.com/images/profile-admin-administrator-1-time1311321542-2bf5ad296f-165/320x320'); background-repeat: no-repeat; background-position: 90% 20px;">
-            Engineering
-          </div>
-          <div class="card-body">
-            <p class="card-text">From graphics and lighting to final design and more, Simco offers the engineering capabilities to handle your toughest projects.</p>
-            <p class="text-right"><a href="/technology/advanced-engineering" class="text-uppercase">Learn More »</a></p>
-          </div>
-        </div>
-      </div>
+<div class="row adventure">
+  <div class="container">
+    <h4 style="display:block">DISCOVER SIMCO LTD</h4>
+    <div class="col-12 col-lg-4">
+        <p>&nbsp;<br>PRODUCTS</p>
+        <img src="/assets/images/boxes/simcoltd-products.jpg" class="lazy img-fluid content loading" style="width: 100%;" data-was-processed="true">
+        <div class="col-10 offset-1"><a href="/products" class="btn btn-build text-uppercase mr-3 mb-3"><span>VIEW PRODUCTS</span></a></div>
     </div>
-    <!-- End Flex Box -->
-
-    <!-- Flex Box -->
-    <div class="col-6 col-md-3 p-2">
-      <!-- Card -->
-      <div class="card grey-box m-0">
-        <div class="card-content">
-          <div class="card-header d-flex align-items-center" style="background-image: url('http://www.simcoltd.com/images/profile-admin-administrator-1-time1311321544-1bb59dd827-167/320x320'); background-repeat: no-repeat; background-position: 90% 20px;">
-            Manufacturing
-          </div>
-          <div class="card-body">
-            <p class="card-text">Our in-house, state-of-the-art manufacturing facilities provide consistent quality in every instrument we manufacture.</p>
-            <p class="text-right"><a href="/technology/manufacturing" class="text-uppercase">Learn More »</a></p>
-          </div>
-        </div>
-      </div>
+    <div class="col-12 col-lg-4">
+      <p>ADVANCED<br>ENGINEERING</p>
+        <img src="/assets/images/boxes/simcoltd-advanced-engineering.jpg" class="lazy img-fluid content loading" style="width: 100%;" data-was-processed="true">
+        <div class="col-10 offset-1"><a href="/technology/advanced-engineering/" class="btn btn-build text-uppercase mr-3 mb-3"><span>VIEW EXPERTISE</span></a></div>
     </div>
-    <!-- End Flex Box -->
-
-    <!-- Flex Box -->
-    <div class="col-6 col-md-3 p-2">
-      <!-- Card -->
-      <div class="card grey-box m-0">
-        <div class="card-content">
-          <div class="card-header d-flex align-items-center" style="background-image: url('http://www.simcoltd.com/images/profile-admin-administrator-1-time1311321543-5425be5781-166/320x320'); background-repeat: no-repeat; background-position: 90% 20px;">
-            Cloud-Based Solutions
-          </div>
-          <div class="card-body">
-            <p class="card-text">Our innovative thinking combines manufacturing, engineering and technolgy to bring cloud-based computing to our customers.</p>
-            <p class="text-right"><a href="/technology/cloud-based-solutions" class="text-uppercase">Learn More »</a></p>
-          </div>
-        </div>
-      </div>
+    <div class="col-12 col-lg-4">
+        <p>CLOUD-BASED<br>SOLUTIONS</p>
+        <img src="/assets/images/boxes/simcoltd-cloud-based-solutions.jpg" class="lazy img-fluid content loading" style="width: 100%;" data-was-processed="true">
+        <div class="col-10 offset-1"><a href="/technology/cloud-based-solutions" class="btn btn-build text-uppercase mr-3 mb-3"><span>VIEW IoT</span></a></div>
     </div>
-    <!-- End Flex Box -->
-
-    <!-- Flex Box -->
-    <div class="col-6 col-md-3 p-2">
-      <!-- Card -->
-      <div class="card red-box m-0">
-        <div class="card-content">
-          <div class="card-header d-flex align-items-center font-weight-light">
-            INDUSTRIES
-          </div>
-          <div class="card-body">
-              <ul>
-                <li><a href="/industries/specialty">Specialty OEM</a></li>
-                <li><a href="/industries/electric-hybrid">Electric / Hybrid</a></li>
-                <li><a href="/industries/recreational-military">Recreational & Military</a></li>
-                <li><a href="/industries/consumer-products">Consumer Products</a></li>
-              </ul>
-          </div>
-        </div>
-      </div>
+    <div class="col-12 col-lg-4">
+        <p>&nbsp;<br>INDUSTRIES</p>
+        <img src="/assets/images/boxes/simcoltd-industries.jpg" class="lazy img-fluid content loading" style="width: 100%;" data-was-processed="true">
+        <div class="col-10 offset-1"><a href="/industries" class="btn btn-build text-uppercase mr-3 mb-3"><span>VIEW USE CASES</span></a></div>
     </div>
-    <!-- End Flex Box -->
-
+  </div>
 </div>
