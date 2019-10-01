@@ -14,7 +14,7 @@
     </li>
     <li class="align-middle {{ Request::is('industries/recreational-military*') ? 'active' : '' }}">
       <a href="/industries/recreational-military" class="list-group-item double-line list-group-item-action {{ Request::is('industries/recreational-military*') ? 'active' : '' }}">
-        Recreational & Military
+        Recreational & <br>Military
       </a>
     </li>
     <li class="align-middle {{ Request::is('industries/consumer-products*') ? 'active' : '' }}">

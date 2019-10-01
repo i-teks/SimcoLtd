@@ -19,7 +19,7 @@
     </li>
     <li class="align-middle {{ Request::is('products/graphic-overlays*') ? 'active' : '' }}">
       <a href="/products/graphic-overlays" class="list-group-item double-line list-group-item-action {{ Request::is('products/graphic-overlays*') ? 'active' : '' }}">
-        2D & 3D Graphic Overlays
+        2D & 3D Graphic <br>Overlays
       </a>
     </li>
     <li class="align-middle {{ Request::is('products/coil-bobbin-assemblies*') ? 'active' : '' }}">

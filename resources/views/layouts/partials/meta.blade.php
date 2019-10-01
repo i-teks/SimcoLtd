@@ -4,6 +4,10 @@
 <!-- Favicon -->
 <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/85ab0623f5.js"></script>
 
