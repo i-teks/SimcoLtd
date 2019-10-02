@@ -8,6 +8,9 @@
       <div class="collapse navbar-collapse text-uppercase justify-content-center">
       <ul class="nav">
         <li class="nav-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
           <a href="/products" class="nav-link {{ Request::is('products*') ? 'active' : '' }}">Products</a>
         </li>
         <li class="nav-item">
