@@ -668,6 +668,7 @@ body {
 // Home Page, Box Card
 // -----------------------------------------------
 */
+/*
 .red-box.card {
   border: 3px solid var(--red-dark);
 }
@@ -677,7 +678,7 @@ body {
 /**
   * Solution to make perfectly square css box.
   * Could also use a JQuery solution.
-  */
+  /
 .red-box.card, .grey-box.card {
   position: relative;
   width: 100%;
@@ -692,7 +693,6 @@ body {
   width: 100%;
   height: 100%;
 }
-/*  */
 .red-box {
   background-color: var(--red-primary);
   border: none;
@@ -730,6 +730,90 @@ body {
 .red-box .card-body ul li a {
   color: #fff;
 }
+*/
+
+
+/*
+// -----------------------------------------------
+// Home Page, Teaser Boxes
+// -----------------------------------------------
+*/
+.row.innovation {
+    text-align: center;
+    margin: 0 -0.5rem;
+}
+.row.innovation .col-lg-4 {
+    max-width: 23%;
+    display: inline-block;
+}
+@media screen and (max-width: 1199px) {
+  .row.innovation .col-lg-4 {
+    max-width: 49%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .row.innovation .col-lg-4 {
+    max-width: 100%;
+  }
+}
+.row.innovation .col-lg-4 .btn {
+    padding: 5px;
+    margin-top: -20px;
+}
+.row.innovation .col-lg-4 p {
+  /*color: #2f2c2c;*/
+  font-size: 14px;
+  font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 0.5em;
+}
+.btn-build {
+    /*
+    border: 2px solid #e61332;
+    background-color: #e61332;
+    */
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: -28px;
+}
+.btn {
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 0;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-build:hover {
+    /*
+    color: #e61332;
+    background-color: #fff;
+    border: 2px solid #e61332;
+    */
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.btn:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+.btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+
 
 /*
 // -----------------------------------------------

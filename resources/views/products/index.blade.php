@@ -11,6 +11,8 @@
 @section('content')
   <h1>The Simco Products</h1>
 
+  <img src="/assets/images/headers/header-products.jpg" width="100%" alt="">
+
   <h5>We are known for specialty OEM.</h5>
   <p>Simco has over three decades of experience providing specialty OEM manufacturers innovative designs and state-of-the-art engineering for a wide range of products including: electronic modules with embedded software, wire harness assemblies, gauges and lighting blended with custom graphics, and our patented Micro Air Core (MAC) technology.</p>
 
