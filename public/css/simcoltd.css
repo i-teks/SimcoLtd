@@ -844,6 +844,38 @@ body {
 // Images
 // -----------------------------------------------
 */
+.coil-bobbins {
+  clip-path: polygon(100% 0%, 70% 0%, 65% 15%, 28% 15%, 5% 30%, 0% 58%, 5% 72%, 30% 100%, 100% 100%);
+  shape-outside: polygon(100% 0%, 70% 0%, 65% 15%, 28% 15%, 5% 30%, 0% 58%, 5% 72%, 30% 100%, 100% 100%);
+  width: 60%;
+  max-width: 550px;
+  height: auto;
+}
+
+.electronic-modules {
+  clip-path: polygon(100% 0%, 50% 0%, 0% 40%, 0% 85%, 30% 100%, 100% 100%);
+  shape-outside: polygon(100% 0%, 50% 0%, 0% 40%, 0% 85%, 30% 100%, 100% 100%);
+  width: 60%;
+  max-width: 550px;
+  height: auto;
+}
+
+.graphic-overlays {
+  clip-path: polygon(100% 0%, 32% 0%, 0% 40%, 0% 80%, 25% 100%, 100% 100%);
+  shape-outside: polygon(100% 0%, 32% 0%, 0% 40%, 0% 80%, 25% 100%, 100% 100%);
+  width: 60%;
+  max-width: 550px;
+  height: auto;
+}
+
+.wire-harness {
+  clip-path: polygon(100% 0%, 25% 0%, 12% 12%, 0% 15%, 0% 40%, 25% 100%, 100% 100%);
+  shape-outside: polygon(100% 0%, 25% 0%, 12% 13%, 0% 15%, 0% 40%, 25% 100%, 100% 100%);
+  width: 60%;
+  max-width: 550px;
+  height: auto;
+}
+
 .engineering-cluster {
   /* display: none; */
   margin-right: -1.875rem;
