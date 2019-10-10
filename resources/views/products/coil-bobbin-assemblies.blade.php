@@ -9,15 +9,6 @@
 @endsection
 
 @section('content')
-<style>
-#graybox-wrapper .list-group-item {
-    background: url(http://www.simcoltd.com/template/default/images/small_black_arrow.png) no-repeat 0 center;
-    border: none;
-    line-height: 1rem;
-    padding: 0 0 0 .875rem;
-    margin-bottom: 3px;
-}
-</style>
 <div class="row">
   <div class="col-12">
     <h1>Coil Bobbin Assemblies</h1>
@@ -27,7 +18,7 @@
     <p>The MAC movement is available for both gauge and cluster manufacturers, and can be easily controlled using standard off-the-shelf circuitry.</p>
   </div>
 </div>
-<div class="row">
+<div class="row mx-0">
   <div class="col-12 col-md-5">
     <img src="{{ asset('/assets/images/products/simcoltd-mac-movement-competitors.jpg') }}" width="100%" alt="">
   </div>

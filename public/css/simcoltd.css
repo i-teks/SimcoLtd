@@ -844,6 +844,15 @@ body {
 // Images
 // -----------------------------------------------
 */
+#graybox-wrapper .list-group-item {
+    background: url(http://www.simcoltd.com/template/default/images/small_black_arrow.png) no-repeat 0 center;
+    border: none;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    padding: 0 0 0 .875rem;
+    margin-bottom: 3px;
+}
+
 .coil-bobbins {
   clip-path: polygon(100% 0%, 70% 0%, 65% 15%, 28% 15%, 5% 30%, 0% 58%, 5% 72%, 30% 100%, 100% 100%);
   shape-outside: polygon(100% 0%, 70% 0%, 65% 15%, 28% 15%, 5% 30%, 0% 58%, 5% 72%, 30% 100%, 100% 100%);
