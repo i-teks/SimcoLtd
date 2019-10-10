@@ -886,6 +886,9 @@ body {
   height: auto;
 }
 
+@media (max-width: 575px) {
+  #boxed-content div img { max-height: 200px; }
+}
 
 /**
  * Break point below Bootstrap medium width

@@ -23,5 +23,8 @@
       </a>
     </li>
   </ul>
+
+  @include('layouts.partials.sidebar-contact-info')
+
 </div>
 <!-- End Sidebar -->

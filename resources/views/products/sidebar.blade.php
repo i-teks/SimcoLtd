@@ -29,27 +29,7 @@
     </li>
   </ul>
 
-  <!--
-    <div class="grey" style="margin-top:30px;">
-    	<h4 class="grey">Contact Info</h4>
-    	<div style="margin-top:15px;">
-    		<strong>Simco, Ltd.</strong><br>
-    		<span class="text_small">1 DeMille Rd.<br>
-    		Lapeer, MI 48446 USA </span>
-      </div>
-    	<div style="margin-top:15px;">
-    		<strong>Phone Number</strong><br>
-    		<span class="text_small">(810) 245-0188 </span>
-      </div>
-    	<div style="margin-top:15px;">
-    		<strong>Office hours</strong><br>
-    		<span class="text_small">Monday through Friday<br>
-    		8 am - 5 pm EST. </span>
-      </div>
-    	<div class="read_more text_left" style="margin-top:15px;">
-    		<a href="http://www.simcoltd.com/contact">more info »</a>
-      </div>
-    </div>
-  -->
+  @include('layouts.partials.sidebar-contact-info')
+
 </div>
 <!-- End Sidebar -->
