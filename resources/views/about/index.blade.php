@@ -29,7 +29,15 @@
 
     <h2>Customers</h2>
     <h5>Our customers include.</h5>
-    <p></p>
+    <div class="row">
+      <div class="col-12 col-sm-6">
+        <img src="{{ asset('/assets/images/simcoltd-customers1.jpg') }}" width="100%" style="" alt="">
+      </div>
+      <div class="col-12 col-sm-6">
+        <img src="{{ asset('/assets/images/simcoltd-customers2.jpg') }}" width="100%" style="" alt="">
+      </div>
+    </div>
+
 
     <h2>Memberships</h2>
     <h5>Our affiliations.</h5>
