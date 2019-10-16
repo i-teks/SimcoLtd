@@ -9,12 +9,12 @@
     </li>
     <li class="align-middle {{ Request::is('products/wire-harness-assemblies*') ? 'active' : '' }}">
       <a href="/products/wire-harness-assemblies" class="list-group-item double-line list-group-item-action {{ Request::is('products/wire-harness-assemblies*') ? 'active' : '' }}">
-        Wire Harness & PCB Assemblies
+        Wire Harness Assemblies
       </a>
     </li>
     <li class="align-middle {{ Request::is('products/instrument-clusters*') ? 'active' : '' }}">
       <a href="/products/instrument-clusters" class="list-group-item double-line list-group-item-action {{ Request::is('products/instrument-clusters*') ? 'active' : '' }}">
-        Instrument Clusters & Guages
+        Instrument Clusters & Gauges
       </a>
     </li>
     <li class="align-middle {{ Request::is('products/graphic-overlays*') ? 'active' : '' }}">

@@ -1,7 +1,7 @@
 @extends('layouts.master-sidebar')
 
 @section('title')
-  Indistries - Recreational & Military - Simco Ltd. Specialty Innovation and Manufacturing Company
+  Industries - Recreational & Military - Simco Ltd. Specialty Innovation and Manufacturing Company
 @endsection
 
 @section('sidebar')

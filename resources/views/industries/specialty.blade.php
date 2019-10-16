@@ -1,7 +1,7 @@
 @extends('layouts.master-sidebar')
 
 @section('title')
-  Indistries - Specialty OEM - Simco Ltd. Specialty Innovation and Manufacturing Company
+  Industries - Specialty OEM - Simco Ltd. Specialty Innovation and Manufacturing Company
 @endsection
 
 @section('sidebar')

@@ -1,7 +1,7 @@
 @extends('layouts.master-sidebar')
 
 @section('title')
-  Indistries - Electric / Hybrid - Simco Ltd. Specialty Innovation and Manufacturing Company
+  Industries - Electric / Hybrid - Simco Ltd. Specialty Innovation and Manufacturing Company
 @endsection
 
 @section('sidebar')

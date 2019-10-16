@@ -1,7 +1,7 @@
 @extends('layouts.master-sidebar')
 
 @section('title')
-  Indistries - Consumer Products - Simco Ltd. Specialty Innovation and Manufacturing Company
+  Industries - Consumer Products - Simco Ltd. Specialty Innovation and Manufacturing Company
 @endsection
 
 @section('sidebar')

@@ -84,21 +84,7 @@
   </div>
 
   <!-- Slide 2 -->
-  <div id="slide-2" class="slide slide-fade">
-    <!-- Slide Title -->
-    <div id="slide-title" class="col-12 col-lg-12">
-      <h1><small>WIRE&nbsp; HARNESS&nbsp; AND</small><br>PCB&nbsp; ASSEMBLIES</h1>
-    </div>
-    <!-- Slide Description -->
-    <div id="slide-desc" class="col-12 col-lg-12">
-      <p>Engineered to the highest standards and extremely reliable.</p>
-    </div>
-    <!-- Slide Image -->
-    <a href="/products/wire-harness-assemblies" class="slider-img-link"><img src="/assets/images/slider/slide-02-products-wire-harness-assemblies.jpg" alt="" border="0" /></a>
-  </div>
-
-  <!-- Slide 3 -->
-  <div id="tab_3" class="slide slide-fade">
+  <div id="tab_2" class="slide slide-fade">
     <!-- Slide Title -->
     <div id="slide-title" class="col-12 col-lg-12">
       <h1><small>WE&nbsp; CREATE&nbsp; INSTRUMENTS</small><br>THAT&nbsp; GET&nbsp; NOTICED</h1>
@@ -108,7 +94,21 @@
       <p>Our design aesthetics and attention to detail are second-to-none.</p>
     </div>
     <!-- Slide Image -->
-    <a href="/products/instrument-clusters" class="slider-img-link"><img src="/assets/images/slider/slide-03-products-instrument-clusters.jpg" alt="" border="0" /></a>
+    <a href="/products/instrument-clusters" class="slider-img-link"><img src="/assets/images/slider/slide-02-products-instrument-clusters.jpg" alt="" border="0" /></a>
+  </div>
+
+  <!-- Slide 3 -->
+  <div id="slide-3" class="slide slide-fade">
+    <!-- Slide Title -->
+    <div id="slide-title" class="col-12 col-lg-12">
+      <h1><small>WIRE&nbsp; HARNESS</small><br>ASSEMBLIES</h1>
+    </div>
+    <!-- Slide Description -->
+    <div id="slide-desc" class="col-12 col-lg-12">
+      <p>Engineered to the highest standards and extremely reliable.</p>
+    </div>
+    <!-- Slide Image -->
+    <a href="/products/wire-harness-assemblies" class="slider-img-link"><img src="/assets/images/slider/slide-03-products-wire-harness-assemblies.jpg" alt="" border="0" /></a>
   </div>
 
   <!-- Slide 4 -->
@@ -140,18 +140,18 @@
   </div>
 
   <!-- Slide 6 -->
-    <div id="slide-6" class="slide slide-fade">
-      <!-- Slide Title -->
-      <div id="slide-title" class="col-12 col-lg-12">
-        <h1><small>A&nbsp; WHOLE&nbsp; NEW&nbsp; LEVEL&nbsp; OF</small><br>SPECIALTY&nbsp; OEM</h1>
-      </div>
-      <!-- Slide Description -->
-      <div id="slide-desc" class="col-12 col-lg-12">
-        <p>Mahindra trusted us for a durable weather sealed fuse box and instruments for their all-terrain jeep.</p>
-      </div>
-      <!-- Slide Image -->
-      <a href="/industries/specialty" class="slider-img-link"><img src="/assets/images/slider/slide-06-industries-specialty-oem.jpg" alt="" border="0" /></a>
+  <div id="slide-6" class="slide slide-fade">
+    <!-- Slide Title -->
+    <div id="slide-title" class="col-12 col-lg-12">
+      <h1><small>CLOUD-BASED&nbsp; SOLUTIONS</small><br>AND&nbsp; I<small>o</small>T</h1>
     </div>
+    <!-- Slide Description -->
+    <div id="slide-desc" class="col-12 col-lg-12">
+      <p>Our engineering team supports development in web portal, data analysis, user alerts, and mobile applications.</p>
+    </div>
+    <!-- Slide Image -->
+    <a href="/technology/cloud-based-solutions" class="slider-img-link"><img src="/assets/images/slider/slide-06-technology-cloud-based-solutions.jpg" alt="" border="0" /></a>
+  </div>
 
   <!-- Next and Previous Arrow Buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
