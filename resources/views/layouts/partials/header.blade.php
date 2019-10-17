@@ -26,8 +26,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarProductsDropdownMenuLink">
           <a class="dropdown-item" href="/products/electronic-modules">Electronic Modules</a>
-          <a class="dropdown-item" href="/products/wire-harness-assemblies">Wire Harness Assemblies</a>
           <a class="dropdown-item" href="/products/instrument-clusters">Instrument Clusters & Gauges</a>
+          <a class="dropdown-item" href="/products/wire-harness-assemblies">Wire Harness Assemblies</a>
           <a class="dropdown-item" href="/products/graphic-overlays">2D & 3D Graphic Overlays</a>
           <a class="dropdown-item" href="/products/coil-bobbin-assemblies">Coil Bobbin Assemblies</a>
         </div>

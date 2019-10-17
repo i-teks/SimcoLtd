@@ -11,19 +11,16 @@
 @section('content')
 <div class="row">
   <div class="col-12">
-    <img src="{{ asset('/assets/images/products/simcoltd-electronic-modules.jpg') }}" class="float-right electronic-modules">
+    <img src="{{ asset('/assets/images/products/simcoltd-electronic-modules.jpg') }}" class="float-right electronic-modules" alt="">
     <h1>Electronic Modules</h1>
     <h5>Seamless integration.</h5>
     <p class="pb-2">Specialized OEM manufacturing often focuses on customized solutions that deliver innovative functionality. This requires hardware and software integration that meets and exceeds industry standards. Simco has experience developing sophisticated interfaces that communicate with a vehicle’s internal communications and a wide range of subsystems—our in-house software development team ensures that our electronic modules work seamlessly with your vehicle's management system.</p>
-  </div>
-</div>
-<div id="boxed-content" class="row mx-0" style="background-color: #eee;">
-  <div class="col-12 col-sm-4" style="padding:0;">
-    <img src="{{ asset('/assets/images/products/simcoltd-programming-integration.jpg') }}" width="100%" height="100%" style="object-fit: cover;" alt="">
-  </div>
-  <div class="col-12 col-sm-8" style="padding:20px;">
-    <h5>We speak the language of innovation.</h5>
-    <p style="font-size:14px; margin-bottom:0;">That's why we're proud to offer extensive design experience in microprocessor control and embedded source code development, using both high and low-level programming languages such as C/C++ and assembly codes. In fact, most of our software development is custom, driven by customer and vehicle needs that demand a high level of functionality, but with flexible parameters that utilize data bus communication and Flash-enabled memory to enable future updates and rapid changes.</p>
+    <img src="{{ asset('/assets/images/products/simcoltd-pcb.jpg') }}" class="float-left" style="width:20%; margin: 5px 20px 20px 0;" alt="">
+    <h5>Engineered to the highest standards.</h5>
+    <p class="pb-2">Our in-house electronics capabilities include everything from developing requirements based on a vehicle's specs, to complete electrical product architecture, schematic designs, PCB layouts and more. Additionally, our engineering team will design and develop the proper electrical functionality needed by using our advanced knowledge of available technology, industry requirements and environmental standards.</p>
+    <img src="{{ asset('/assets/images/products/simcoltd-electronic-module-gibbs.jpg') }}" class="float-right" style="width:40%;" alt="">
+    <h5>Eget duis at tellus at urna condimentum.</h5>
+    <p class="pb-2">Diam quis enim lobortis scelerisque fermentum dui faucibus. Consequat nisl vel pretium lectus quam id leo in vitae. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Aliquet lectus proin nibh nisl condimentum id venenatis a. Integer malesuada nunc vel risus commodo. Arcu non odio euismod lacinia at quis risus sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Ut etiam sit amet nisl purus in.</p>
   </div>
 </div>
 @endsection
