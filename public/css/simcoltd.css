@@ -886,8 +886,16 @@ body {
   height: auto;
 }
 
+.cluster {
+  margin-right: -1.875rem;
+  clip-path: polygon(100% 0%, 56% 0%, 8% 11%, 5% 18%, 0% 45%, 3% 65%, 10% 100%, 100% 100%);
+  shape-outside: polygon(100% 0%, 56% 0%, 8% 11%, 5% 18%, 0% 45%, 3% 65%, 10% 100%, 100% 100%);
+  width: 70%;
+  max-width: 550px;
+  height: auto;
+}
+
 .engineering-cluster {
-  /* display: none; */
   margin-right: -1.875rem;
   clip-path: polygon(100% 0%, 47% 0%, 25% 12%, 10% 30%, 7% 30%, 0% 35%, 0% 100%, 100% 100%);
   shape-outside: polygon(100% 0%, 47% 0%, 25% 12%, 10% 30%, 7% 30%, 0% 35%, 0% 100%, 100% 100%);
