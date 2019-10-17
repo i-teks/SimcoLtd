@@ -23,7 +23,7 @@
 
   <div class="bg-white px-3" id="page-content-wrapper">
     <div class="row justify-content-center m-0">
-      <div class="col-12 pt-4 pb-4">
+      <div class="col-12 pt-4 pb-4" style="padding-bottom: 30px !important;">
 
         @yield('content')
 
