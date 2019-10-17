@@ -11,8 +11,8 @@
 @section('content')
 <div class="row">
   <div class="col-12">
-    <img src="{{ asset('/assets/images/products/simcoltd-electronic-modules.jpg') }}" class="float-right electronic-modules" alt="">
     <h1>Electronic Modules</h1>
+    <img src="{{ asset('/assets/images/products/simcoltd-electronic-modules.jpg') }}" class="float-right electronic-modules" alt="">
     <h5>Seamless integration.</h5>
     <p class="pb-2">Specialized OEM manufacturing often focuses on customized solutions that deliver innovative functionality. This requires hardware and software integration that meets and exceeds industry standards. Simco has experience developing sophisticated interfaces that communicate with a vehicle’s internal communications and a wide range of subsystems—our in-house software development team ensures that our electronic modules work seamlessly with your vehicle's management system.</p>
     <img src="{{ asset('/assets/images/products/simcoltd-pcb.jpg') }}" class="float-left" style="width:20%; margin: 5px 20px 20px 0;" alt="">

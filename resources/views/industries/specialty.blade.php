@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-12">
     <h1>Specialty OEM</h1>
-    <div class="text-center"><img src="http://www.simcoltd.com/images/file-ca36f26bb2-236/x" style="width:100%; height:auto;"></div>
+    <div class="text-center"><img src="http://www.simcoltd.com/images/file-ca36f26bb2-236/x" style="width:100%; height:auto;" alt=""></div>
     <h5>Gauged to meet your toughest demand.</h5>
     <p class="pb-2">From high end supercars to the latest fully-electric vehicles, Simco works with a wide range of specialty OEM manufacturers and customizers to develop gauges and instrument clusters that not only enhance the styling and functionality of their vehicles, but also meet the heightened performance demands required by their customers.</p>
     <h5>As many options as there are cars on the road.</h5>

@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-12">
     <h1>Instrument Clusters & Gauges</h1>
-    <img src="{{ asset('/assets/images/products/simcoltd-cluster.png') }}" class="float-right cluster">
+    <img src="{{ asset('/assets/images/products/simcoltd-cluster.png') }}" class="float-right cluster" alt="">
     <h5>Custom design. Cutting-edge engineering.</h5>
     <p class="pb-2">Simco, Ltd. is an industry leader in the design, engineering and manufacturing of a wide range of specialty gauges, instrument clusters and driver information displays for leading automotive, commercial, military and recreational OEM manufacturers worldwide.</p>
     <h5>Gauged to meet your toughest demand.</h5>

@@ -18,8 +18,8 @@
     <img src="{{ asset('/assets/images/products/simcoltd-graphic-overlay-disney.png') }}" class="float-left" style="width:40%; margin:10px 10px 0 0;" alt="">
     <h5>We'll literally paint you a picture.</h5>
     <p class="pb-2">With in-house capabilities that can provide detailed graphics and 3D product renderings from concept through completion, we'll help you see exactly what the end result will be well before we build it. And because every rendering is reviewed and approved by our design team, we can guarantee that your final product will meet every expectation.</p>
-    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
     <img src="{{ asset('/assets/images/products/graphic-overlay-printing.jpg') }}" class="float-right" style="width:30%; margin:10px 0 0 10px;" alt="">
+    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
     <p class="pb-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis commodo odio aenean sed. Enim nunc faucibus a pellentesque sit amet. Nisl nisi scelerisque eu ultrices vitae auctor eu. Tellus at urna condimentum mattis pellentesque. Arcu risus quis varius quam. Consectetur adipiscing elit ut aliquam purus. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Ultricies integer quis auctor elit. Elit ullamcorper dignissim cras tincidunt lobortis feugiat.</p>
   </div>
 </div>

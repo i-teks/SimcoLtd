@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-12">
     <h1>Recreational & Military</h1>
-    <div class="text-center"><img src="http://www.simcoltd.com/images/profile-admin-administrator-1-time1311861026-c7c561835f-199/x" style="width:100%; height:auto;"></div>
+    <div class="text-center"><img src="http://www.simcoltd.com/images/profile-admin-administrator-1-time1311861026-c7c561835f-199/x" style="width:100%; height:auto;" alt=""></div>
 
     <h2>Recreational</h2>
     <h5>You'll find us in the field and the stream.</h5>

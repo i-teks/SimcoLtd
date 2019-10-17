@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-12">
     <h1>Electric / Hybrid</h1>
-    <div class="text-center"><img src="http://www.simcoltd.com/images/file-ecc64dd1fe-246/x" style="width:100%; height:auto;"></div>
+    <div class="text-center"><img src="http://www.simcoltd.com/images/file-ecc64dd1fe-246/x" style="width:100%; height:auto;" alt=""></div>
     <h5>Charting a new frontier.</h5>
     <p class="pb-2">Today's hybrid and fully-electric vehicles offer new levels of complexity never before seen in this industry. Instrument clusters must not only communicate vital infromation to the driver, they must also operate a wide range of vehicle subsystems—and the sophisticated battery management systems of modern electric vehicles pose some of the gratest challenges. In fact, the development of intelligent cell management not only involves monitoring the health of the individual cells, but must also coordinate critical diagnostic information through the instrument cluster, adding additional layers of complexity.</p>
     <h5>We make battery management systems more manageable.</h5>

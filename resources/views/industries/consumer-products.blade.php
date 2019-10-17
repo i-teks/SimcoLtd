@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-12">
     <h1>Consumer Products</h1>
-    <div class="text-center"><img src="{{ asset('/assets/images/headers/header-consumer-products.jpg') }}" style="width:100%; height:auto;"></div>
+    <div class="text-center"><img src="{{ asset('/assets/images/headers/header-consumer-products.jpg') }}" style="width:100%; height:auto;" alt=""></div>
     <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
     <p class="pb-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam. Placerat vestibulum lectus mauris ultrices eros in. Non arcu risus quis varius quam quisque id. In est ante in nibh mauris cursus. Morbi quis commodo odio aenean. Viverra nam libero justo laoreet sit amet cursus sit amet. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla.</p>
     <h5>Sollicitudin nibh sit amet commodo nulla facilisi..</h5>
