@@ -19,7 +19,7 @@
     <p class="pb-2">From all-terrain vehicles and personal watercraft to the latest high-tech agricultural equipment, these vehicles operate in a wide range of environments and conditions that each offer their own unique challenges. To meet these challenges head on, we design our gauges and clusters with the right options for any condition—including sealed connectors systems, GPS monitoring systems, tilt/tip sensors, gear detection, water flow sensors, or whatever your vehicle's specifications demand. And since these cockpits operate in direct sunlight, we design our gauges for temperature and UV color fade resistance.</p>
 
     <h2>Military</h2>
-    <img src="{{ asset('/assets/images/boxes/industries-military.jpg') }}" style="width:40%; float:right; margin:5px 0 10px 10px;" alt="">
+    <img src="{{ asset('/assets/images/industries/industries-military.jpg') }}" style="width:40%; float:right; margin:5px 0 10px 10px;" alt="">
     <h5>Engineered for the most extreme conditions.</h5>
     <p class="pb-2">The range of vehicles in use by the US military is extremely diverse, but they all have one thing in common: they must operate flawlessly in some of the toughest environments on earth. That's why military contractors come to us for their instrument needs, because we deliver a level of quality that stands up to even the most extreme conditions.</p>
     <h5>Built tough, just like our troops.</h5>
