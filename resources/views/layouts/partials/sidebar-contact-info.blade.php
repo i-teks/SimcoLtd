@@ -10,7 +10,7 @@
     <span style="font-size:12px;">(810) 245-0188 </span>
   </div>
   <div style="margin-top:15px; font-size:14px;">
-    <strong>Office hours</strong><br>
+    <strong>Office Hours</strong><br>
     <span style="font-size:12px;">Monday through Friday<br>
     8 am - 5 pm EST. </span>
   </div>

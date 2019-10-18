@@ -388,7 +388,7 @@ nav a {
   font-weight: 700;
 }
 #sidebar-wrapper.contact-info {
-  width: 25.8125rem !important;
+  /*width: 25.8125rem !important;*/
 }
 #sidebar-wrapper .list-group {
   font-size: 0.75rem;

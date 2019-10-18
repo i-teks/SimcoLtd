@@ -36,7 +36,8 @@
     <div class="col-12 copyright text-center">
       <p style="line-height: 1rem;">
           © 2019 Simco Ltd. All Rights Reserved.<br>
-          Powered by i-TekSystems Interactive
+    			1 DeMille Rd. Lapeer, MI 48446 USA<br>
+          phone: +1 (810) 245-0188
       </p>
     </div>
 

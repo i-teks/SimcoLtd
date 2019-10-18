@@ -1,4 +1,4 @@
-@extends('layouts.master-sidebar-right')
+@extends('layouts.master-sidebar')
 
 @section('title')
   Contact - Simco Ltd. Specialty Innovation and Manufacturing Company
@@ -98,13 +98,22 @@
     </div>
   </div>
 </div>
-
-<div class="d-flex">
-  <div class="">
+<style>
+.g-recaptcha div,
+.g-recaptcha div iframe,
+.rc-anchor-normal {
+  max-width:100% !important;
+}
+.rc-anchor-content {
+  width:180px !important;
+}
+</style>
+<div class="row">
+  <div class="col-12 pb-4">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <div class="g-recaptcha" data-sitekey="6LfT-7QUAAAAABwnTk3G02mBwAIQwn7-jHTGcH64"></div>
   </div>
-  <div class="mt-auto ml-auto">
+  <div class="col-12">
     <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
   </div>
 </div>
