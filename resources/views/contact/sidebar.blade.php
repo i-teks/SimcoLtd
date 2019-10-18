@@ -13,7 +13,7 @@
 		</div>
 		<div style="margin-top:15px; font-size:14px;">
 			<h6 style="font-size:16px; margin-bottom: 0.05rem"><small><i class="fa fa-phone mr-2" aria-hidden="true"></i></small>Phone Number</h6>
-			(810) 245-0188<br><br>
+			<a href="tel:1-810-245-0188" style="color:#969696">(810) 245-0188</a><br><br>
 			<strong>General Inquiries</strong><br>
 			ext. 1001<br><br>
 			<strong>OEM Sales</strong><br>

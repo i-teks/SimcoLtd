@@ -7,7 +7,7 @@
   </div>
   <div style="margin-top:15px; font-size:14px;">
     <strong>Phone Number</strong><br>
-    <span style="font-size:12px;">(810) 245-0188 </span>
+    <span style="font-size:12px;"><a href="tel:1-810-245-0188" style="color:#969696">(810) 245-0188</a></span>
   </div>
   <div style="margin-top:15px; font-size:14px;">
     <strong>Office Hours</strong><br>
