@@ -845,6 +845,9 @@ body {
 // Images
 // -----------------------------------------------
 */
+#boxed-content {
+  margin-bottom: 20px;
+}
 #graybox-wrapper .list-group-item {
     background: url(http://www.simcoltd.com/template/default/images/small_black_arrow.png) no-repeat 0 center;
     border: none;
