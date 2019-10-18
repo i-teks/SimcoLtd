@@ -37,7 +37,7 @@
       <p style="line-height: 1rem;">
           © 2019 Simco Ltd. All Rights Reserved.<br>
     			1 DeMille Rd. Lapeer, MI 48446 USA<br>
-          phone: +1 (810) 245-0188
+          phone: <a href="tel:1-810-245-0188">(810) 245-0188</a> 1-810-245-0188
       </p>
     </div>
 
