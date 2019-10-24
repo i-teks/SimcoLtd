@@ -19,7 +19,7 @@
     <img src="{{ asset('/assets/images/products/simcoltd-wire-harness-pigtail.jpg') }}" class="float-left" style="width:40%;" alt="">
     <h5>Vitae elementum curabitur vitae nunc.</h5>
     <p class="pb-2">Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Platea dictumst vestibulum rhoncus est pellentesque elit. Tellus in metus vulputate eu scelerisque felis. Mauris in aliquam sem fringilla. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Consequat ac felis donec et odio pellentesque diam volutpat. Ultricies mi quis hendrerit dolor magna eget est.</p>
-    <img src="{{ asset('/assets/images/products/simcoltd-potting-over-mold-epoxy.jpg') }}" class="float-right" style="width:40%;" alt="">
+    <img src="{{ asset('/assets/images/products/simcoltd-potting-over-mold-epoxy.jpg') }}" class="float-right" style="width:60%;" alt="">
     <h5>Lorem ipsum dolor sit amet.</h5>
     <p class="pb-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis commodo odio aenean sed. Enim nunc faucibus a pellentesque sit amet. Nisl nisi scelerisque eu ultrices vitae auctor eu. Tellus at urna condimentum mattis pellentesque. Arcu risus quis varius quam. Consectetur adipiscing elit ut aliquam purus. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Ultricies integer quis auctor elit. Elit ullamcorper dignissim cras tincidunt lobortis feugiat.</p>
   </div>

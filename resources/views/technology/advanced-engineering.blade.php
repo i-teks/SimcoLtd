@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-12">
     <h1>Advanced Engineering</h1>
-    <div class="text-center"><img src="{{ asset('/assets/images/headers/header-engineering.jpg') }}" style="width:100%; height:auto; margin-bottom:2rem;" alt=""></div>
+    <div class="text-center"><img src="{{ asset('/assets/images/headers/header-technology-engineering.jpg') }}" style="width:100%; height:auto; margin-bottom:2rem;" alt=""></div>
     <h5>Engineering is at the heart and soul of Simco, Ltd.</h5>
     <p class="pb-2">Through years of engineering experience and creativity, Simco, Ltd. has brought patented products with function and style into the marketplace. We can take an idea that starts with a complete technical specification or a simple sketch on a napkin and deliver a product that is engineered and manufactured for success. Our team will walk beside our customers providing renderings, prototypes, and production samples along the way.</p>
     <h5>Engineers who are true experts.</h5>

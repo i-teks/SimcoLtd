@@ -412,7 +412,7 @@ nav a {
   border-top: 1px solid var(--grey-light);
 }
 #sidebar-wrapper .list-group-item {
-  background: url(http://www.simcoltd.com/template/default/images/small_black_arrow.png) no-repeat 0.6125rem center;
+  background: url(/assets/images/ui/small-black-arrow.png) no-repeat 0.6125rem center;
   border: none;
   color: var(--red-primary);
   line-height: 0.85rem;
@@ -421,12 +421,12 @@ nav a {
 #sidebar-wrapper .list-group-item:hover,
 #sidebar-wrapper .list-group-item:focus,
 #sidebar-wrapper .list-group-item:active {
-  background: url(http://www.simcoltd.com/template/default/images/left_side_menu_bcg_hover.png) no-repeat right top;;
+  background: url(/assets/images/ui/left-side-menu-bcg-hover.png) no-repeat right top;;
   border: none;
   color: var(--black-text);
 }
 #sidebar-wrapper .list-group-item.active {
-  background: url(http://www.simcoltd.com/template/default/images/left_side_menu_bcg.png) no-repeat right top;
+  background: url(/assets/images/ui/left-side-menu-bcg.png) no-repeat right top;
   border: none;
   color: #eaeaea;
   margin-right: -13px;
@@ -544,6 +544,7 @@ body {
   -webkit-mask-size: cover;
 }
 */
+/*
 .slider-descr {
     background: url(http://www.simcoltd.com/template/default/images/slider_descr_right.png) no-repeat right top;
     position: absolute;
@@ -560,6 +561,7 @@ body {
     text-transform: uppercase;
     line-height: 12px;
 }
+*/
 .slider-descr-content a {
     color: #fff;
     font-weight: bold;
@@ -849,7 +851,7 @@ body {
   margin-bottom: 20px;
 }
 #graybox-wrapper .list-group-item {
-    background: url(http://www.simcoltd.com/template/default/images/small_black_arrow.png) no-repeat 0 center;
+    background: url(/assets/images/ui/small-black-arrow.png) no-repeat 0 center;
     border: none;
     font-size: 0.875rem;
     line-height: 1rem;

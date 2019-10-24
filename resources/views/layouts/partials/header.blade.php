@@ -3,7 +3,7 @@
 <div class="container align-middle bg-dark">
 
   <a class="navbar-brand" href="{{ url('/') }}">
-    <img src="{{{ asset('assets/images/simco_logo_reverse.png') }}}" height="50" alt="SimcoLtd">
+    <img src="{{{ asset('assets/images/ui/simco-logo-reverse.png') }}}" height="50" alt="Simco Ltd.">
     <!-- {{ config('app.name', 'SimcoLtd') }} -->
   </a>
 

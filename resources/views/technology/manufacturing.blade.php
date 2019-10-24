@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-12">
     <h1>State-of-the-Art Manufacturing</h1>
-    <div class="text-center"><img src="{{ asset('/assets/images/headers/header-manufacturing.jpg') }}" style="width:100%; height:auto; margin-bottom:2rem;" alt=""></div>
+    <div class="text-center"><img src="{{ asset('/assets/images/headers/header-technology-manufacturing.jpg') }}" style="width:100%; height:auto; margin-bottom:2rem;" alt=""></div>
     <h5>Smart. And state-of-the-art.</h5>
     <p class="pb-2">Simco Ltd has invested in state-of-the-art equipment to transform our designs into product for our customers. We believe in flexible manufacturing that allows our team to develop customized products with quality and shorter lead times, for our customer’s specialty needs. We pride ourselves on offering state-of-the-art manufacturing capabilities at our in-house, ISO-certified facility. This means that our customers can expect consistent quality, accurate calibrations and long life from every product we manufacture. And by offering flexible manufacturing runs, we support both short- and long-run production needs.</p>
     <h5>Our assemblies live up to the toughest conditions.</h5>
