@@ -36,7 +36,7 @@
     <div class="col-12 copyright text-center">
       <p style="line-height: 1rem;">
           © 2019 Simco Ltd. All Rights Reserved.<br>
-    			1 DeMille Rd. Lapeer, MI 48446 USA<br>
+    			<a href="https://goo.gl/maps/7wv2Sr2hXj4AKFXz5" target="_blank" style="color:#6d6d6d">1 DeMille Rd. Lapeer, MI 48446 USA</a><br>
           phone: <a href="tel:1-810-245-0188" style="color:#6d6d6d">(810) 245-0188</a>
       </p>
     </div>

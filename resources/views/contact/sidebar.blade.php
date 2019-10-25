@@ -8,8 +8,8 @@
 		<div style="margin-top:15px; font-size:14px;">
 			<h6 style="font-size:16px; margin-bottom: 0.05rem"><small><i class="fa fa-map-marker-alt mr-2" aria-hidden="true"></i></small>&nbsp;Headquarters</h6>
 			Simco, Ltd.<br>
-			1 DeMille Rd.<br>
-			Lapeer, MI 48446 USA
+			<a href="https://goo.gl/maps/7wv2Sr2hXj4AKFXz5" target="_blank" style="color:#969696">1 DeMille Rd.<br>
+			Lapeer, MI 48446 USA</a>
 		</div>
 		<div style="margin-top:15px; font-size:14px;">
 			<h6 style="font-size:16px; margin-bottom: 0.05rem"><small><i class="fa fa-phone mr-2" aria-hidden="true"></i></small>Phone Number</h6>
