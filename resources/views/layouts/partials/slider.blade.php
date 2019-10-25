@@ -125,6 +125,20 @@
     <a href="/products/graphic-overlays" class="slider-img-link"><img src="/assets/images/slider/slide-04-products-graphic-overlays.jpg" alt="" border="0" /></a>
   </div>
 
+  <!-- Slide 4 (DISNEY) -->
+  <div id="slide-4" class="slide slide-fade">
+    <!-- Slide Title -->
+    <div id="slide-title" class="col-12 col-lg-12">
+      <h1><small>LET&nbsp; YOUR&nbsp; IMAGINATION</small><br>TAKE&nbsp; FLIGHT</h1>
+    </div>
+    <!-- Slide Description -->
+    <div id="slide-desc" class="col-12 col-lg-12">
+      <p>We helped Disney deliver an augmented reality, virtual flying experience to thrill seekers on the Avatar Flight of Passage ride.</p>
+    </div>
+    <!-- Slide Image -->
+    <a href="/products/graphic-overlays" class="slider-img-link"><img src="/assets/images/slider/slide-04-products-graphic-overlays-disney.jpg" alt="" border="0" /></a>
+  </div>
+
   <!-- Slide 5 -->
   <div id="slide-5" class="slide slide-fade">
     <!-- Slide Title -->
@@ -165,6 +179,7 @@
     <span class="dot" onclick='currentSlide(4)'>4</span>
     <span class="dot" onclick='currentSlide(5)'>5</span>
     <span class="dot" onclick='currentSlide(6)'>6</span>
+    <span class="dot" onclick='currentSlide(7)'>7</span>
   </div>
 
 </div>
