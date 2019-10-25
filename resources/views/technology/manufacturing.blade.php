@@ -21,7 +21,7 @@
 </div>
 <div id="boxed-content" class="row mx-0" style="background-color: #eee;">
   <div class="col-12 col-sm-5" style="padding:0;">
-    <img src="{{ asset('/assets/images/technology/technology-assembly.jpg') }}" width="100%" height="100%" style="object-fit: cover; object-position:center right" alt="">
+    <img src="{{ asset('/assets/images/boxes/technology-manufacturing.jpg') }}" width="100%" height="100%" style="object-fit: cover; object-position:center right" alt="">
   </div>
   <div id="graybox-wrapper" class="col-12 col-sm-7 align-self-center" style="padding:20px;">
     <div class="row">
