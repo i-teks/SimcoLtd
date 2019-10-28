@@ -21,7 +21,7 @@
 </div>
 <div id="boxed-content" class="row mx-0" style="background-color: #eee;">
   <div class="col-12 col-sm-5" style="padding:0;">
-    <img src="http://www.simcoltd.com/images/profile-admin-administrator-1-time1311242392-684f0beac9-142/x" width="100%" height="100%" style="object-fit: cover; object-position:center right" alt="">
+    <img src="{{ asset('/assets/images/industries/industries-hybrid.png') }}" width="100%" height="100%" style="object-fit: cover; object-position:center right" alt="">
   </div>
   <div id="graybox-wrapper" class="col-12 col-sm-7 align-self-center" style="padding:20px;">
     <h5>Our Electric/Hybrid OEM clients include:</h5>
