@@ -24,12 +24,8 @@
     <img src="{{ asset('/assets/images/industries/industries-consumer-products.jpg') }}" width="100%" height="100%" style="object-fit: cover; object-position:center right" alt="">
   </div>
   <div id="graybox-wrapper" class="col-12 col-sm-7 align-self-center" style="padding:20px;">
-    <h5>Consumer product clients include:</h5>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Bizbee/Vetrk</li>
-      <li class="list-group-item">Basement Defender</li>
-    </ul>
-    </div>
+    <p>Ac felis donec et odio pellentesque diam volutpat. Semper eget duis at tellus at urna condimentum mattis pellentesque. Augue ut lectus arcu bibendum at. Velit ut tortor pretium viverra.</p>
+  </div>
 </div>
 @endsection
 
