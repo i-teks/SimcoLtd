@@ -432,7 +432,7 @@
                         <p>Contact number: {{ $data['contact_number'] }}</p>
                         <br>
                         <p><strong>Company Info</strong></p>
-                        <p>Company: {{ $data['company]'] }}</p>
+                        <p>Company: {{ $data['company'] }}</p>
                         <p>Department: {{ $data['department'] }}</p>
                         <p>Position: {{ $data['position'] }}</p>
                         <br>
