@@ -12,9 +12,12 @@
 */
 
 
+/*
 Route::get('/', function () {
     return view('home');
 });
+*/
+Route::view('/', 'home');
 
 Route::view('/products', 'products.index');
 Route::view('/products/electronic-modules', 'products.electronic-modules');
@@ -35,5 +38,12 @@ Route::view('/technology/manufacturing', 'technology.manufacturing');
 Route::view('/technology/cloud-based-solutions', 'technology.cloud-based-solutions');
 
 Route::view('/contact', 'contact.index');
+Route::post('/contact/send', 'ContactController@send');
 
 Route::view('/about', 'about.index');
+
+// Disable Default Registration Form That Ships With Laravel Via Auth Package
+// Auth::routes();
+Auth::routes(['register' => false]);
+
+Route::view('/home', 'home');
