@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-//use Mail;
-//use App\Mail\AmazonSes;
+use Mail;
+use App\Mail\AmazonSes;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -47,17 +47,10 @@ class ContactController extends Controller
     );
     //dd($contact);
 
-    $contact['template'] = 'contact_request_tpl';
+    $contact['template'] = 'contact-request-tpl';
     $contact['heading'] = 'New contact form submission from SimcoLtd.com!';
     //dd($contact);
-    //Mail::to('mayres@simcoltd.com')->send(new AmazonSes($contact));
-
-    /*
-    $contact['template'] = 'contact_confirm_tpl';
-    $contact['heading'] = 'Thank you for contacting Simco Ltd!';
-    dd($contact);
-    Mail::to(request('email'))->send(new AmazonSes($contact));
-    */
+    Mail::to('mayres@simcoltd.com')->send(new AmazonSes($contact));
 
     return back()->with('success', 'Thanks for contacting us! We will get back to you shortly.');
   }
