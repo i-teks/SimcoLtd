@@ -148,8 +148,11 @@
     </style>
     <div class="row">
       <div class="col-12 pb-4">
+        <!--
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <div class="g-recaptcha" data-sitekey="6LfT-7QUAAAAABwnTk3G02mBwAIQwn7-jHTGcH64"></div>
+        -->
+        {!! app('captcha')->display() !!}
         @if ($errors->has('g-recaptcha-response'))
             <span class="invalid-feedback d-block" role="alert">
                 <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
@@ -169,4 +172,5 @@
 @endsection
 
 @section('scripts')
+{!! NoCaptcha::renderJs() !!}
 @endsection
