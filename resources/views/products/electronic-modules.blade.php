@@ -17,10 +17,10 @@
     <p class="pb-2">Specialized OEM manufacturing often focuses on customized solutions that deliver innovative functionality. This requires hardware and software integration that meets and exceeds industry standards. Simco has experience developing sophisticated interfaces that communicate with a vehicle’s internal communications and a wide range of subsystems—our in-house software development team ensures that our electronic modules work seamlessly with your vehicle's management system.</p>
     <img src="{{ asset('/assets/images/products/simcoltd-pcb.jpg') }}" class="float-left" style="width:20%; margin: 5px 20px 20px 0;" alt="">
     <h5>Engineered to the highest standards.</h5>
-    <p class="pb-2">Our in-house electronics capabilities include everything from developing requirements based on a vehicle's specs, to complete electrical product architecture, schematic designs, PCB layouts and more. Additionally, our engineering team will design and develop the proper electrical functionality needed by using our advanced knowledge of available technology, industry requirements and environmental standards.</p>
+    <p class="pb-2">Our electronic products are developed for the OEM stringent environment with custom embedded software and communication as required.  Our in-house electronics capabilities start from concept to full production including the development of schematics, pcb layouts, and prototypes to insure proper electrical functionality.</p>
     <img src="{{ asset('/assets/images/products/simcoltd-electronic-module-gibbs.jpg') }}" class="float-right" style="width:40%;" alt="">
-    <h5>Eget duis at tellus at urna condimentum.</h5>
-    <p class="pb-2">Diam quis enim lobortis scelerisque fermentum dui faucibus. Consequat nisl vel pretium lectus quam id leo in vitae. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Aliquet lectus proin nibh nisl condimentum id venenatis a. Integer malesuada nunc vel risus commodo. Arcu non odio euismod lacinia at quis risus sed vulputate. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Ut etiam sit amet nisl purus in.</p>
+    <h5>Simco Ltd Provides Complete Package.</h5>
+    <p class="pb-2">Our electronic assembly products are designed in all shapes, sizes, and materials to fit our customer’s application. Simco Ltd provides a full solution of packaging and electronic design.  This solution may range from a plastic LED lighting display to a more complex metal assembly that houses a 4-layer electronic module for high temp and durability requirements.  Let us know how Simco Ltd can bring the next electronic assembly to your specific need.</p>
   </div>
 </div>
 @endsection

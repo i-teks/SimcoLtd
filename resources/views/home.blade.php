@@ -7,7 +7,7 @@
 @section('content')
   @include('layouts.partials.slider')
   <h2><span class="text-red">S</span>pecialty <span class="text-red">I</span>nnovative <span class="text-red">M</span>anufacturing <span class="text-red">Co</span>mpany</h2>
-  <p>Simco, Ltd. is an innovative engineering and manufacturing company dedicated to producing a wide range of instrument gauges, electronic assemblies, wireless products, and fabricated parts for a worldwide clientele of automotive, recreational, and commercial customers. Based in Lapeer, Michigan, our ISO-9001 compliant facility offers OEM engineering experience, exciting new product designs and flexible manufacturing capabilities to meet our customer’s unique needs.</p>
+  <p>Simco Ltd is an innovative engineering and manufacturing company dedicated to producing a wide range of electronic assemblies, instrument clusters, wire harnesses, graphic overlays, and sub-components for a worldwide clientele of automotive, recreational, and commercial customers. Based in Michigan U.S.A, our IS0 certified facility offers OEM development, exciting new product designs, and flexible manufacturing to meet our customer's short and long run production needs.  Furthermore, our advanced IoT team provides “cloud base solutions” with custom mobile apps and cloud base portals; allowing data retrieval, telematics, alert notifications, and team interaction for both products and processes.</p>
   @include('layouts.partials.home-boxes')
 @endsection
 

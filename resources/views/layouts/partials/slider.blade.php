@@ -73,7 +73,7 @@
   <div id="slide-1" class="slide slide-fade">
     <!-- Slide Title -->
     <div id="slide-title" class="col-12 col-lg-12">
-      <h1><small>SOPHISTICATED&nbsp; AND&nbsp; SEALED</small><br>ELECTRONIC&nbsp; MODULES</h1>
+      <h1><small>SMART&nbsp; AND&nbsp; SEALED</small><br>ELECTRONIC&nbsp; MODULES</h1>
     </div>
     <!-- Slide Description -->
     <div id="slide-desc" class="col-12 col-lg-12">
@@ -147,7 +147,7 @@
     </div>
     <!-- Slide Description -->
     <div id="slide-desc" class="col-12 col-lg-12">
-      <p>Simco’s patented Micro Air Core (MAC) Technology, small as a dime, performs like a giant against.</p>
+      <p>Simco’s patented Micro Air Core (MAC) Technology, small as a dime, performs like a giant.</p>
     </div>
     <!-- Slide Image -->
     <a href="/products/coil-bobbin-assemblies" class="slider-img-link"><img src="/assets/images/slider/slide-05-products-bobbin-assemblies.jpg" alt="" border="0" /></a>
