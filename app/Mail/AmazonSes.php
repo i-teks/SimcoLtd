@@ -49,7 +49,7 @@ class AmazonSes extends Mailable
     {
       return $this->view('layouts.emails.' . $this->template)
                   ->with('data', $this->data)
-                  ->from('mayres@simcoltd.com', 'Simco Ltd: no-reply')
+                  ->from('info@simcoltd.com', 'Simco Ltd: no-reply')
                   ->replyTo($this->email, $this->first_name . ' ' . $this->last_name)
                   ->subject($this->heading);
     }

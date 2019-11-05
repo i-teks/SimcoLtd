@@ -50,7 +50,7 @@ class ContactController extends Controller
     $contact['template'] = 'contact-request-tpl';
     $contact['heading'] = 'New contact form submission from SimcoLtd.com!';
     //dd($contact);
-    Mail::to('mayres@simcoltd.com')->send(new AmazonSes($contact));
+    Mail::to('info@simcoltd.com')->send(new AmazonSes($contact));
 
     return back()->with('success', 'Thanks for contacting us! We will get back to you shortly.');
   }
