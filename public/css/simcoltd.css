@@ -850,7 +850,8 @@ body {
 #boxed-content {
   margin-bottom: 20px;
 }
-#graybox-wrapper .list-group-item {
+#graybox-wrapper .list-group-item,
+#content-bullet-wrapper .list-group-item {
     background: url(/assets/images/ui/small-black-arrow.png) no-repeat 0 center;
     border: none;
     font-size: 0.875rem;

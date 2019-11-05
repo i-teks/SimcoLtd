@@ -10,8 +10,7 @@
 
 @section('content')
   <h1>Industries</h1>
-  <h5>Lorem ipsum dolor sit amet.</h5>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Simco Ltd engineer and manufacture products across multiple industries.  Electronic modules for Off-road vehicles, instrument clusters for specialty OEM, potted PCB-wire harness assembly for Military, Graphic overlays and seals for remanufactures, and a Wi-Fi electronic module with mobile apps for the consumer market, just to name a few.</p>
   @include('layouts.partials.industries-boxes')
 @endsection
 

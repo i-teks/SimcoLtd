@@ -18,10 +18,21 @@
     <p class="pb-2">The MAC movement is available for both gauge and cluster manufacturers, and can be easily controlled using standard off-the-shelf circuitry.</p>
     <img src="{{ asset('/assets/images/products/simcoltd-mac-movement-competitors.jpg') }}" class="float-left" style="width:40%; margin:10px 0 0 0;" alt="">
     <h5>The Micro Movement is small as a dime yet performs as a giant against its competition.</h5>
-    <p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis commodo odio aenean sed. Enim nunc faucibus a pellentesque sit amet. Nisl nisi scelerisque eu ultrices vitae auctor eu. Tellus at urna condimentum mattis pellentesque. Arcu risus quis varius quam. Consectetur adipiscing elit ut aliquam purus. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Ultricies integer quis auctor elit. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Eu tincidunt tortor aliquam nulla.</p>
+    <p class="pb-2">Simco Ltd’s patented Micro Movement is produced in more than 15 different variations for design flexibility and pointer style interface. The MAC movement has been developed in many high profile vehicles such as:</p>
     <img src="{{ asset('/assets/images/products/simcoltd-coil-bobbin-pcb.jpg') }}"  class="float-right" style="width:40%; margin:10px 0 0 10px;" alt="">
-    <h5>Vitae elementum curabitur vitae nunc.</h5>
-    <p class="pb-2">Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Platea dictumst vestibulum rhoncus est pellentesque elit. Tellus in metus vulputate eu scelerisque felis. Mauris in aliquam sem fringilla. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Consequat ac felis donec et odio pellentesque diam volutpat. Ultricies mi quis hendrerit dolor magna eget est.</p>
+    <div id="content-bullet-wrapper">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Dodge SRT-10</li>
+        <li class="list-group-item">Ford GT</li>
+        <li class="list-group-item">Chevrolet Cobalt</li>
+        <li class="list-group-item">Saturn Ion Redline</li>
+        <li class="list-group-item">Saleen Specialty OEM</li>
+        <li class="list-group-item">NASCAR</li>
+        <li class="list-group-item">Harley Davidson Motorcycles</li>
+        <li class="list-group-item">Bombardier ATV</li>
+        <li class="list-group-item">Mahindra Roxor</li>
+      </ul>
+    </div>
   </div>
 </div>
 @endsection
