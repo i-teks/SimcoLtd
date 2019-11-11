@@ -18,31 +18,25 @@
     <h5>Our customers include:</h5>
     <div class="row">
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/customers/disney.jpg') }}" width="100%" style="" alt="">
-      </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/customers/roush.jpg') }}" width="100%" style="" alt="">
-      </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/customers/mahindra.jpg') }}" width="100%" style="" alt="">
-      </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
         <img src="{{ asset('/assets/images/customers/aev.jpg') }}" width="100%" style="" alt="">
       </div>
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/customers/magna.jpg') }}" width="100%" style="" alt="">
-      </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/customers/wabco.jpg') }}" width="100%" style="" alt="">
-      </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/customers/johnson-controls.jpg') }}" width="100%" style="" alt="">
+        <img src="{{ asset('/assets/images/customers/autometer.jpg') }}" width="100%" style="" alt="">
       </div>
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
         <img src="{{ asset('/assets/images/customers/chrysler.jpg') }}" width="100%" style="" alt="">
       </div>
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/customers/autometer.jpg') }}" width="100%" style="" alt="">
+        <img src="{{ asset('/assets/images/customers/disney.jpg') }}" width="100%" style="" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
+        <img src="{{ asset('/assets/images/customers/johnson-controls.jpg') }}" width="100%" style="" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
+        <img src="{{ asset('/assets/images/customers/magna.jpg') }}" width="100%" style="" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
+        <img src="{{ asset('/assets/images/customers/mahindra.jpg') }}" width="100%" style="" alt="">
       </div>
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
         <img src="{{ asset('/assets/images/customers/raymarine.jpg') }}" width="100%" style="" alt="">
@@ -50,20 +44,26 @@
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
         <img src="{{ asset('/assets/images/customers/rgis.jpg') }}" width="100%" style="" alt="">
       </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
+        <img src="{{ asset('/assets/images/customers/roush.jpg') }}" width="100%" style="" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
+        <img src="{{ asset('/assets/images/customers/wabco.jpg') }}" width="100%" style="" alt="">
+      </div>
     </div>
     <h5>Our membership affiliations:</h5>
     <div class="row">
-      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/memberships/sae.jpg') }}" width="100%" style="" alt="">
-      </div>
-      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
-        <img src="{{ asset('/assets/images/memberships/sema.jpg') }}" width="100%" style="" alt="">
-      </div>
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
         <img src="{{ asset('/assets/images/memberships/aapex.jpg') }}" width="100%" style="" alt="">
       </div>
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
         <img src="{{ asset('/assets/images/memberships/mera.jpg') }}" width="100%" style="" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
+        <img src="{{ asset('/assets/images/memberships/sae.jpg') }}" width="100%" style="" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
+        <img src="{{ asset('/assets/images/memberships/sema.jpg') }}" width="100%" style="" alt="">
       </div>
       <div class="col-12 col-sm-6 col-md-3 col-lg-2 pb-4">
         <img src="{{ asset('/assets/images/memberships/sgia.jpg') }}" width="100%" style="" alt="">

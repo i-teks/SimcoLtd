@@ -21,7 +21,7 @@
     </figure>
     <h5>We'll literally paint you a picture.</h5>
     <img src="{{ asset('/assets/images/products/graphic-overlay-printing.jpg') }}" class="float-right" style="width:25%; margin:10px 0 0 10px;" alt="">
-    <p class="pb-2">Simco Ltd is a manufacturer of custom graphic overlays for the specialty OEM and remanufacturing clientele.  We utilize state-of-the art machinery and OEM materials to provide multi-layer printing with high registration, specialty backlighting colors, clear display windows, multiple textures, as well as selective adhesives. Our new 3D formed graphic overlay process now provides the latest OEM designs with custom shapes and cut-outs included.</p>
+    <p class="pb-2">With in-house capabilities, Simco Ltd can provide you a detailed graphic rendering from concept to completion to help you visuize the end result before we build it.  And because our renderings are reviewed and approved by our design team, we guarantee our final product will meet your expectation.</p>
   </div>
 </div>
 @endsection

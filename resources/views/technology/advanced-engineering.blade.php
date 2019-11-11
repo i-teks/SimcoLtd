@@ -28,6 +28,7 @@
     <h5>Our engineering expertise includes:</h5>
     <ul class="list-group list-group-flush">
       <li class="list-group-item">Advanced Electronic Design</li>
+      <li class="list-group-item">Embedded Software Development</li>
       <li class="list-group-item">Plastic & Assembly Design</li>
       <li class="list-group-item">Lighting Development</li>
       <li class="list-group-item">Vehicle Communication</li>
