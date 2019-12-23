@@ -367,7 +367,7 @@
                   <!-- COMPANY INFO -->
                   <table>
                     <tr><td class="header-right"><p class="customerinfo"><a href="tel:+1 (810) 245-0188"><strong>Phone: <nobr>+1 (810) 245-0188</nobr></strong></a></p></td></tr>
-                    <tr><td class="header-right"><p class="customerinfo"><nobr>Email: <a href="mailto:mayres@simcoltd.com">mayres@simcoltd.com</a></nobr></p></td></tr>
+                    <tr><td class="header-right"><p class="customerinfo"><nobr>Email: <a href="mailto:info@simcoltd.com">info@simcoltd.com</a></nobr></p></td></tr>
                   </table>
                 </td>
               </tr>
@@ -475,13 +475,6 @@
                 <tr>
                   <td class="content-block">
                     <a href="https://simcoltd.com"><img src="https://staging.simcoltd.com/assets/images/ui/simco-logo-reverse.png" height="30" alt="Igniser"></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="content-block" style="text-align:left;">
-                    Please do not reply to this email. Emails sent to this address will not be answered.
-                    This is an automated message sent from the <a href="https://simcoltd.com" style="text-decoration:none;">www.simcoltd.com</a> website.
-                    If you have any comments or questions regarding this email correspondence please contact us at <a href="mailto:mayres@simcoltd.com" style="text-decoration:none;">mayres@simcoltd.com</a>.
                   </td>
                 </tr>
                 <!-- MESSAGE ID -->
