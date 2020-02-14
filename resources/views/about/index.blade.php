@@ -78,6 +78,7 @@
   <div id="graybox-wrapper" class="col-12 col-sm-7 align-self-center" style="padding:20px;">
     <h5>Our guarantee to you</h5>
     <p>Simco Ltd offers innovative design, robust engineering and state-of-the-art, ISO-certified manufacturing capabilities. Additionally, all of our gauges, instrument clusters, electronic modules, wire assemblies, and sub-components are warranted for materials and workmanship that meets or exceeds OEM warranties.</p>
+    <p style="text-align: center;"><a href="{{ asset('/assets/downloads/Simco_Quality_Policy.pdf') }}" target="_blank">Click to view Simco Quality Policy</a></p>
   </div>
 </div>
 @endsection
