@@ -41,6 +41,50 @@ return [
 
     'debug' => env('APP_DEBUG', false),
 
+    'debug_blacklist' => [
+        '_ENV' => [
+            'APP_KEY',
+            'DB_CONNECTION',
+            'DB_HOST',
+            'DB_PORT',
+            'DB_DATABASE',
+            'DB_USERNAME',
+            'DB_PASSWORD',
+            'AWS_ACCESS_KEY_ID',
+            'AWS_SECRET_ACCESS_KEY',
+            'AWS_DEFAULT_REGION',
+            'AWS_BUCKET',
+            'NOCAPTCHA_SECRET',
+            'NOCAPTCHA_SITEKEY',
+        ],
+
+        '_SERVER' => [
+            'APP_KEY',
+            'DB_CONNECTION',
+            'DB_HOST',
+            'DB_PORT',
+            'DB_DATABASE',
+            'DB_USERNAME',
+            'DB_PASSWORD',
+            'AWS_ACCESS_KEY_ID',
+            'AWS_SECRET_ACCESS_KEY',
+            'AWS_DEFAULT_REGION',
+            'AWS_BUCKET',
+            'NOCAPTCHA_SECRET',
+            'NOCAPTCHA_SITEKEY',
+            'USER',
+            'HOME',
+            'SCRIPT_FILENAME',
+            'SERVER_ADMIN',
+            'CONTEXT_DOCUMENT_ROOT',
+            'DOCUMENT_ROOT',
+        ],
+
+        '_POST' => [
+            'password',
+        ],
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application URL
