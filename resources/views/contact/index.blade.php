@@ -25,6 +25,7 @@
     @endif
 
     <form action="/contact/send" method="POST" style="margin-bottom: 20px;">
+    @csrf
 
     <div class="card">
       <div class="card-body">
@@ -164,7 +165,6 @@
       </div>
     </div>
 
-    @csrf
     </form>
 
   </div>
